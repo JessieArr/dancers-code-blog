@@ -1,41 +1,63 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="/css/site.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="/">Dancer's Code</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/">Home</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-      </div>
-    </header>
-    <div class="content container">
-      {{ content }}
+---
+layout: compress
+# Default layout
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT Licensed
+---
+
+<!DOCTYPE html>
+
+{% if site.lang %}
+  {% assign lang = site.lang | split: "_" | first %}
+{% else %}
+  {% assign lang = 'en' %}
+{% endif %}
+
+{% capture prefer_mode %}
+  {% if site.theme_mode != "dual" %}
+    mode="{{ site.theme_mode }}"
+  {% endif %}
+{% endcapture %}
+
+<html lang="{{ lang }}" {{ prefer_mode }} >
+
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#toc">
+
+    <div id="sidebar" class="d-flex flex-column">
+      {% include sidebar.html %}
     </div>
-    <footer>
-      <div class="container">
-        <p class="center-text">Thanks for reading to the bottom! :)</p>
+
+    {% include topbar.html %}
+
+    <div id="main-wrapper">
+      <div id="main">
+
+        {% include refactor-content.html content=content %}
+
+        {% include footer.html %}
+
       </div>
-    </footer>
-    <script src="/js/bootstrap.min.js"></script>
+
+      {% include search-results.html %}
+
+    </div> <!-- #main-wrapper -->
+
+    <div id="mask"></div>
+
+    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    {% include search-loader.html %}
+
+    {% if site.google_analytics.id and jekyll.environment == 'production' %}
+      {% include google-analytics.html %}
+    {% endif %}
+
   </body>
+
 </html>
