@@ -1,9 +1,9 @@
 ---
-title: Writing a New Post
-author: Cotes Chung
-date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
+title: Notes on Test Naming
+author: Shawn
+date: 2020-09-30 12:00:00 -0600
+categories: [Test Automation]
+tags: [Test Automation, Naming]
 ---
 
 > There are only two hard problems in programming: cache invalidation, naming things, and off-by-one errors.
