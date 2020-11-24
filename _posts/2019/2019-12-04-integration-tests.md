@@ -1,7 +1,7 @@
 ---
 title: Integration Tests
 author: Shawn
-date: 2020-12-04 12:00:00 -0600
+date: 2019-12-04 12:00:00 -0600
 categories: [Testing]
 tags: [Testing, Integration]
 ---
@@ -18,7 +18,7 @@ In the above example, we will wire up the real implementation of classes in our 
 
 Due to their larger scope, Integration Tests are more complex to set up than Unit Tests, yet they test things which cannot be tested by Unit Tests. Unit Tests assert the correct behavior of a single unit of code in isolation, but Integration Tests help us ensure that they behave correctly when working together. As an example, imagine that we have two classes, UriHelper and FooBar which interact, and a test asserting that when FooBar‘s UriHasHostName method is passed a null URI, it will return false.
 
-```
+``` C#
     public class FooBar
     {
         private UriHelper _myDependency;
@@ -76,7 +76,7 @@ Next, let’s add a reference to the Microsoft.AspNetCore.Mvc.Testing NuGet pack
 
 This package contains useful tools for designing Integration tests like the one in this example. In particular, it contains the WebApplicationFactory class which can be used to bootstrap an in-memory instance of our web application, along with a client that can be used to route HTTP requests to it over the loopback. The WebApplicationFactory constructor accepts a generic type argument, which is the type of the Startup class which will be used to bootstrap our web application. A trivial test using this class looks as follows:
 
-```
+``` C#
     [Fact]
     public async Task GetAsync_Index_ReturnsSuccess()
     {
@@ -93,7 +93,7 @@ Because our current implementation has no external dependencies, this can alread
 
 The most straightforward way is to provide a second test double implementation of our Startup class which provides mocked versions of our external dependencies to the DI container in its ConfigureServices method, while using the live implementation of all of our classes which do not directly interact with external dependencies:
 
-```
+``` C#
 var factory = new WebApplicationFactory<IntegrationTestStartup>();
 ```
 
