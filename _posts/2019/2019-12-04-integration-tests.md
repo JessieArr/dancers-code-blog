@@ -119,7 +119,7 @@ If you are working on a .NET codebase and are interested in more details about i
 
 While it is possible to design large-scale tests such as these without mocking our external dependencies which makes them more realistic, those would be considered System Tests and have two major drawbacks which Integration Tests do not:
 
-    They are generally much slower due to depending on slow operations like network I/O, and hard disk or database access.
-    They can fail due to problems outside of our codebase, which makes them unsuitable for use as quality gates during our build process – we don’t want our build to fail just because a third party API is having a bad day!
+1. They are generally much slower due to depending on slow operations like network I/O, and hard disk or database access.
+2. They can fail due to problems outside of our codebase, which makes them unsuitable for use as quality gates during our build process – we don’t want our build to fail just because a third party API is having a bad day!
 
 Both Integration and System Tests have their place, but one of the major strengths of Integration Tests is that they are the most complete way to exercise our codebase while still having their result be solely dependent upon the contents of our codebase.
