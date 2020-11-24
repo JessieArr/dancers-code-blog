@@ -7,11 +7,11 @@ In my [previous post](https://dancerscode.com/2019/01/17/techniques-and-advice-f
 
 Having lots of logs is certainly better than having none, but if the logs don't capture important information that allow you to make decisions about your application design, then they are not as valuable as they could be. So in this post I will discuss certain key pieces of information which can greatly enrich your logs:
 
-- - [Web Request Data](#webRequest)
-    - [User Data](#user)
-    - [Caller Data](#caller)
-    - [Environment Data](#environment)
-    - [Error Data](#error)
+  - Web Request Data
+  - User Data
+  - Caller Data
+  - Environment Data
+  - Error Data
 
 [](#)
 
