@@ -7,13 +7,12 @@ When setting out to design maintainable software, one of the most critical thing
 
 One of the main ways to achieve this is by application logging. There are many forms of logging, but in the scope of this article we will discuss a few categories of logging:
 
-- [Diagnostic Logging](#diagnostic)
-- [Performance Logging](#performance)
-- [User Behavior Logging](#user)
-- [Code Behavior Logging](#code)
-- [Audit Logging](#audit)
+- Diagnostic Logging
+- Performance Logging
+- User Behavior Logging
+- Code Behavior Logging
+- Audit Logging
 
-[](#)
 
 ## Diagnostic Logging
 
@@ -72,7 +71,7 @@ Note that when doing this, you should also include as many specifics about what 
 
 ### Soft Failure Logging
 
-As we are adding logging to our application, it is important to remember that not all failures in our code result in exceptions being thrown. There are other code failures which can result in bad/missing data without ever throwing an exception. One good example of this is when you know an operation should always return a non-empty list, but the resulting list is empty. While this may not cause an exception that causes your application to be unusable, it is still a logical error which will have some known or unknown impact on your users and should be logged.[](#)
+As we are adding logging to our application, it is important to remember that not all failures in our code result in exceptions being thrown. There are other code failures which can result in bad/missing data without ever throwing an exception. One good example of this is when you know an operation should always return a non-empty list, but the resulting list is empty. While this may not cause an exception that causes your application to be unusable, it is still a logical error which will have some known or unknown impact on your users and should be logged.
 
 ## Performance Logging
 
@@ -125,7 +124,7 @@ app.Use((context, next) =>
 
 Once again it is very important to keep track of your downstream dependencies. Not all problems in your application originate in your code, so being able to tell when slowness in your application originates in an API or database you depend on is very important to point your troubleshooting in the right direction (and point blame in the right direction, if you have the misfortune to work for an organization which does not have [blameless postmortems](https://codeascraft.com/2012/05/22/blameless-postmortems/)...)
 
-As with our downstream dependency error logging, we should capture as many specifics as possible about our API call/DB query in order to facilitate rapid troubleshooting of the problem.[](#)
+As with our downstream dependency error logging, we should capture as many specifics as possible about our API call/DB query in order to facilitate rapid troubleshooting of the problem.
 
 ## User Behavior Logging
 
@@ -141,7 +140,7 @@ When you release a new feature, it can be very useful to log how many users are 
 
 ### High-Impact Features
 
-If a particular feature in your application is known to have a significant performance impact, it can be very good to log the frequency with which users use that feature. This might be operations such as provisioning a new virtual machine, or clearing all of the cached data for their customer.[](#)
+If a particular feature in your application is known to have a significant performance impact, it can be very good to log the frequency with which users use that feature. This might be operations such as provisioning a new virtual machine, or clearing all of the cached data for their customer.
 
 ## Code Behavior Logging
 
@@ -183,7 +182,7 @@ This is particularly useful in legacy codebases. Sometimes you will find yoursel
 
 ### Data Logging
 
-When it is not clear what the actual data in your application looks like at runtime, it can be useful to log the data itself or key attributes about it. For instance, if you are doing lots of string operations in your application, it might be useful to log the length of those strings so that you know how important optimizing your string operations is. If the strings are always small, the optimization work may not be valuable enough to do. But for long strings it might warrant a higher priority.[](#)
+When it is not clear what the actual data in your application looks like at runtime, it can be useful to log the data itself or key attributes about it. For instance, if you are doing lots of string operations in your application, it might be useful to log the length of those strings so that you know how important optimizing your string operations is. If the strings are always small, the optimization work may not be valuable enough to do. But for long strings it might warrant a higher priority.
 
 ## Audit Logging
 
