@@ -2,8 +2,8 @@
 title: Notes on Test Naming
 author: Shawn
 date: 2020-09-30 12:00:00 -0600
-categories: [Test Automation]
-tags: [Test Automation, Naming]
+categories: [Test]
+tags: [Test, Naming]
 ---
 
 > There are only two hard problems in programming: cache invalidation, naming things, and off-by-one errors.
