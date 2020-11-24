@@ -10,7 +10,7 @@ tags: [Test, Naming]
 
 One of the tricky things about talking and writing about the various types of automated tests is simply naming them. Terms like “Unit” and “Integration” test are heavily overloaded, and the distinction between categories of test is not always trivial to draw.
 
-In fact for many developers with minimal exposire to test automation they may use the term “unit test” to refer to all forms of coded test. Further it is common for “System” and “Integration” tests to be used interchangeably by various organizations to refer to collections of software working together along with data. 
+In fact for many developers with minimal exposure to test automation they may use the term “unit test” to refer to all forms of coded test. Further it is common for “System” and “Integration” tests to be used interchangeably by various organizations to refer to collections of software working together along with data. 
 
 ## What's Important
 
