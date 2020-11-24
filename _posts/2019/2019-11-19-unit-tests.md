@@ -1,6 +1,6 @@
 ---
 title: "Unit Tests"
-date: "2019-11-19"
+date: 2019-11-19 12:00:00 -0600
 ---
 
 Unit Tests are tests written with the most narrow scope possible. Definitionally, they test the smallest unit of our software possible, usually just a single method within a class.
