@@ -3,7 +3,7 @@ title: "A Nomenclature for Musicality"
 author: Shawn
 date: "2019-03-27"
 categories: [Dancing]
-tags: [Migrated]
+tags: [DJ, West Coast Swing]
 ---
 
 I think that one of the big impediments to learning musicality is that many people lack the language to verbalize music. Over the years I've picked up various techniques and terms for this that help me to think about the structure of music, talk about it, and yes, even dance to it.
@@ -40,7 +40,7 @@ In WCS this is one of the defining characteristics of the blues songs we hear in
 
 As one example, listen to "Wild Turkey 101 Proof" by Kenny Wayne and try counting it "one and two and three and four and" - you'll find that it just doesn't feel quite right because of the emphasis of the bass guitar on the "a" sixteenth notes, rather than the "and" beats that are more prominent in contemporary music. Then try counting it "a-one a-two a-three a-four" and you'll find it fits the music much better:
 
-\[youtube https://www.youtube.com/watch?v=twx4USynHrQ\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/twx4USynHrQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Staccato versus Legato
 
@@ -74,7 +74,7 @@ In most modern music there are 8 measures to a phrase, for a total of 32 beats i
 
 It's also important to know that in 12-bar blues there are 12 bars to a phrase! So as Westies when we dance to a lot of blues songs, there will actually be 12 bars of 4 beats each for a total of 48 beats in a phrase. As an example, try counting along with the first 48 beats (33 seconds) of Creeper Returns by Mark Hummel and notice how the last 8 beats of the phrase are a buildup before the end of the phrase:
 
-\[youtube https://www.youtube.com/watch?v=ajwHXBcAT7A\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ajwHXBcAT7A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Song Parts
 
@@ -94,7 +94,7 @@ Let's define these terms:
 
 The intro is, put simply, the song's introduction. It is often not repeated again later in the song, is musically distinct from the first verse, and may be anywhere from 16 to 64 beats long, depending on the song. A good example is the beginning of Secret by Maroon 5 - notice how much time in the song is spent even before a repeating melody is introduced, and how much more before the vocalist begins singing the first verse about 1:34 into the song:
 
-\[youtube https://www.youtube.com/watch?v=eEw1QqxNWAU\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eEw1QqxNWAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 As a dancer, the intro is an important opportunity to "groove" to the song before it's really gotten started. For most songs, musically, it doesn't make a whole lot of sense to start throwing dips and spins into our dancing. Rather we will usually want to keep it simple, focus on connecting to our partner, and getting ready for the first verse.
 
@@ -120,7 +120,7 @@ A song's [bridge](https://en.wikipedia.org/wiki/Bridge_(music)) is a part that c
 
 A good example of this comes at 3:07 in the song Madness by Muse, as the third verse ends and the electric guitar comes in, carrying us into the fourth chorus (notice also that this song _starts_ with a chorus instead of the first verse - this is why having names for things is useful!):
 
-\[youtube https://www.youtube.com/watch?v=Ek0SgwWmF9w?start=180\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ek0SgwWmF9w?start=180" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Pre-Chorus
 
@@ -128,7 +128,7 @@ Some songs will have a pre-chorus, sort of a "bonus" chorus - usually 16-32 beat
 
 One good example of a pre-chorus is in the song Gibberish by MAX. Notice how the first verse wraps up about 28 seconds into the song, then the pre-chorus slowly raises the energy level for 32 beats before the chorus kicks off at 51 seconds in. You'll also hear the pre-chorus again before the second chorus starting at 1:25 in:
 
-\[youtube https://www.youtube.com/watch?v=0xyDJGZCESg?start=22\]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xyDJGZCESg?start=22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Outro
 
