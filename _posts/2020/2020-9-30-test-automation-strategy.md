@@ -14,7 +14,7 @@ Theory:
 - Goal and purpose of Test Automation
 - Test Benefit Analysis
 - [Role of Test Automation in a CI/CD Pipeline](/posts/role-of-test-automation-in-a-ci-cd-pipeline)
-- [Discussion on Test Type Naming](/posts/notes-on-test-naming)
+- [Discussion on Test Type Naming]({% post_url 2020-09-30-notes-on-test-naming %})
 
 Testing Scopes:
 
