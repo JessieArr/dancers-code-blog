@@ -28,7 +28,7 @@ Most of us will be familiar with counting quarter notes: "one two three four." A
 
 It goes like this: "one-e-and-a-two-e-and-a-three-e-and-a-four-e-and-a". For this concept, sheet music can help to visualize it, and this video gives an excellent overview:
 
-\[youtube https://www.youtube.com/watch?v=niogdMiho\_U\]
+<iframe title="YouTube video player" width="480" height="390" src="https://www.youtube.com/watch?v=niogdMiho\_U" frameborder="0" allowfullscreen></iframe>
 
 So why does this matter? Well, in ballroom, the rhythm is what makes a song "be" a certain type of dance. As one example: cha-chas all have the rhythm "one two three four-and-one." The "cha-cha-cha" of the dance falls on the "four-and-one" triplet in the song's major rhythm. Similarly, Sambas are danced to songs with a "one a-two three a-four" rhythm.
 
