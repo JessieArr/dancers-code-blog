@@ -4,6 +4,7 @@ author: Shawn
 date: 2018-07-25 12:00:00 -0600
 categories: [Dancing]
 tags: [Dancing]
+pin: true
 ---
 
 The Dancer’s Code is a list of reminders I’ve made for myself on how to be a dancer who gives and gets the most out of dancing. All the dancers I know could do a little better with at least one of these things, myself included. But just like with dancing, perfection isn’t the goal. The goal is to strive to be your best.

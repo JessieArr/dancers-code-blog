@@ -4,6 +4,7 @@ author: Shawn
 date: 2020-09-30 12:00:00 -0600
 categories: [Testing]
 tags: [Testing, Strategy]
+pin: true
 ---
 
 Below are links to a series of articles I have written or plan to write on Test Automation. Enjoy!
@@ -12,13 +13,13 @@ Theory:
 
 - Goal and purpose of Test Automation
 - Test Benefit Analysis
-- Role of Test Automation in a CI/CD Pipeline
-- Discussion on Test Type Naming
+- [Role of Test Automation in a CI/CD Pipeline](/posts/role-of-test-automation-in-a-ci-cd-pipeline)
+- [Discussion on Test Type Naming](/posts/notes-on-test-naming)
 
 Testing Scopes:
 
-- Unit
-- Integration
+- [Unit](/posts/unit-tests)
+- [Integration](/posts/integration-tests)
 - System (coming soon™)
 - UI (coming soon™)
 - Why Test Scopes Matter (coming soon™)
