@@ -1,6 +1,9 @@
 ---
 title: "Legacy Code Explained for Non-Programmers"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 > You do not truly understand something unless you can explain it to your grandmother.

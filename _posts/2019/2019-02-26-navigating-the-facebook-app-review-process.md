@@ -1,6 +1,9 @@
 ---
 title: "Navigating the Facebook App Review Process"
+author: Shawn
 date: "2019-02-26"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 Attempting to get a Facebook app approved for a new permission can be a very frustrating process. Despite my best efforts, I recently found myself waiting for 15 days and had to reapply no fewer than 6 times in order to get permission to link to users' profiles from my Facebook app.

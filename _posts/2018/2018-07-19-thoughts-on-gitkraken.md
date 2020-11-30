@@ -1,6 +1,9 @@
 ---
 title: "Thoughts on GitKraken"
+author: Shawn
 date: "2018-07-19"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 So I recently saw the [1.0 release announcement](https://blog.axosoft.com/2016/03/29/axosoft-gitkraken-v1/ "Release v1.0") of Axosoft’s GitKraken. Since I’ve recently been having lots of issues with [Atlassian’s SourceTree](https://www.sourcetreeapp.com/ "SourceTree") for Windows, and have never particularly cared for the UI. I hear that SourceTree on mac is excellent, but I’ve not had the same experience with their Windows client. I’ve also found [Github Desktop](https://desktop.github.com/ "Github Desktop") to be very nice, but a bit limited when it comes to repositories with lots of local branches (not a common use-case on Github repositories, but I encounter it a lot at work.)

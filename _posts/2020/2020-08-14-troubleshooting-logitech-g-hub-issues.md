@@ -1,6 +1,9 @@
 ---
 title: "Troubleshooting Logitech G Hub Issues"
+author: Shawn
 date: 2020-08-14 12:00:00 -0600
+categories: [Tech]
+tags: [Migrated]
 ---
 
 Logitech has a long-standing tradition of making really quality hardware that is completely let down by their terrible software, and the new G Hub and the headsets that depend on it are no exception.

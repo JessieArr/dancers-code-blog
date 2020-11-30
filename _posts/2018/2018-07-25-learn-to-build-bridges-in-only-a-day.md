@@ -1,6 +1,9 @@
 ---
 title: "Learn to Build Bridges in Only a Day!"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 So I’ve been reading the [Joel on Software](http://www.joelonsoftware.com/) blog pretty religiously lately, and I’ve decided that part of his success was that most of his blog posts were so short he could probably do them in one sitting. I’ve been trying to blog more, and I think that short, hastily edited blog posts facilitate getting into the habit of writing more, which is a skill I want to keep sharp. So expect more, lower quality content from me from now on!

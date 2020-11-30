@@ -1,6 +1,9 @@
 ---
 title: "Internet-Free Home Media Setup"
+author: Shawn
 date: "2019-08-13"
+categories: [PLEX]
+tags: [Migrated]
 ---
 
 So recently COX Communications has decided to just have a 3-day internet outage because they're awful. As a result, I was quite glad that I have spent a fair bit of time digitizing my DVD collection and organizing it all on a home PLEX server on my local network, so I decided to settle in for a movie marathon until the internet was restored.

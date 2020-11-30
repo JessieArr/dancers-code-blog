@@ -1,6 +1,9 @@
 ---
 title: "How to Set Up a Unity Editor Test Project"
+author: Shawn
 date: "2018-12-05"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 If you're like me, you like to be able to write unit tests for logic in your code. Unfortunately, Unity has historically not had great support for unit testing in the form that most programmers are used to - however recently, they are adding more and more support tor automated test.

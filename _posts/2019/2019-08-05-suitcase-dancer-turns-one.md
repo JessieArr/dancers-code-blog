@@ -1,6 +1,9 @@
 ---
 title: "Suitcase Dancer Turns One!"
+author: Shawn
 date: "2019-08-05"
+categories: [Dancing]
+tags: [Migrated]
 ---
 
 On August 2nd of 2018, I committed the first code to the Suitcase Dancer repository! Since the project has now been going on for over a year, I thought it would be a good time to stop and reflect on how far it's come in a year. And since I'm a programmer, what better place to start than with numbers?

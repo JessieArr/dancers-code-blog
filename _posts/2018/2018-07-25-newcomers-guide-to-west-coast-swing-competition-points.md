@@ -1,6 +1,9 @@
 ---
 title: "Newcomer’s Guide to West Coast Swing Competition Points"
+author: Shawn
 date: "2018-07-25"
+categories: [Dancing]
+tags: [Migrated]
 ---
 
 When I was a new dancer, I found the WCS points and scoring system to be pretty opaque and hard to understand:

@@ -1,6 +1,9 @@
 ---
 title: "The Four Phases of Dance DJs"
+author: Shawn
 date: "2019-01-14"
+categories: [Dancing]
+tags: [Migrated]
 ---
 
 In my experience, as DJs gain more experience, they go through several phases. I'd like to discuss them today, to help my friends who are just starting out DJing dances think about how to level up their DJ game as quickly as possible:

@@ -1,6 +1,9 @@
 ---
 title: "Tackling Tech Debt"
+author: Shawn
 date: "2020-05-19"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 "Technical Debt" can sometimes be a slippery term in the software industry. If you talk about it long enough, it usually becomes apparent that the participants in the conversation have very different things in mind when they are referring to "tech debt" which impedes having a productive discussion about how to deal with it.

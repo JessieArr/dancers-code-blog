@@ -1,6 +1,9 @@
 ---
 title: "Versioning NPM Packages in TFS"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 So I recently needed to build an NPM package with TFS, and wanted the version number to be updated automatically on build. But after searching, I couldn’t find a good example of how to do it, and TFS seemed to have no tools built in to help.

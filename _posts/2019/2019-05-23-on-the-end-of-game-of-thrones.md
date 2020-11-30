@@ -1,6 +1,9 @@
 ---
 title: "On the End of Game of Thrones"
+author: Shawn
 date: "2019-05-23"
+categories: [Entertainment]
+tags: [Migrated]
 ---
 
 Boy. That sure was an ending, huh? The fans sure seem to think so:

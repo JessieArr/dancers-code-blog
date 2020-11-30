@@ -1,6 +1,9 @@
 ---
 title: "Unit Tests"
+author: Shawn
 date: 2019-11-19 12:00:00 -0600
+categories: [Testing]
+tags: [Migrated]
 ---
 
 Unit Tests are tests written with the most narrow scope possible. Definitionally, they test the smallest unit of our software possible, usually just a single method within a class.

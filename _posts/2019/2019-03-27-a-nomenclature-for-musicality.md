@@ -1,6 +1,9 @@
 ---
 title: "A Nomenclature for Musicality"
+author: Shawn
 date: "2019-03-27"
+categories: [Dancing]
+tags: [Migrated]
 ---
 
 I think that one of the big impediments to learning musicality is that many people lack the language to verbalize music. Over the years I've picked up various techniques and terms for this that help me to think about the structure of music, talk about it, and yes, even dance to it.

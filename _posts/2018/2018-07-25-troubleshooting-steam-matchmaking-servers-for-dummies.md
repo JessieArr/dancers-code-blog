@@ -1,6 +1,9 @@
 ---
 title: "Troubleshooting Steam Matchmaking Servers for Dummies"
+author: Shawn
 date: "2018-07-25"
+categories: [Gaming]
+tags: [Migrated]
 ---
 
 So I recently spent several hours troubleshooting my Space Engineers server, and learned a lot about how Steam does matchmaking while I was at it. I figured I’d make a blog post to share and hopefully save others some time.

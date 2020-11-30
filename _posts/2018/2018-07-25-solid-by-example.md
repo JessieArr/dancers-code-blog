@@ -1,6 +1,9 @@
 ---
 title: "SOLID By Example"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 So I’ve recently been discussing SOLID principles with some engineers who are unfamiliar with them, and have realized that a good set of practical examples would be really useful for programmers who haven’t had professional experience with SOLID come to understand it. I won’t claim to be an expert at SOLID, so this is mostly an exercise for myself and a resource geared towards those who are less familiar with the SOLID principles and how to put them into practice when architecting applications in a modern object-oriented language.

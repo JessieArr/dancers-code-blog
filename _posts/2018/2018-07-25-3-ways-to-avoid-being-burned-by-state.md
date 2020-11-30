@@ -1,6 +1,9 @@
 ---
 title: "3 Ways to Avoid Being Burned by State"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 If I were to ask you to tell me what the return value of x were after the following lines of C# code executed – could you?

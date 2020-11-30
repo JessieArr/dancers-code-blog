@@ -1,6 +1,9 @@
 ---
 title: "Commonly Misused Programming Terms"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 One big challenge I often see new programmers struggle with early in their careers is that they often don’t know the correct vocabulary to describe the things they deal with in code.  As a result, often times a lot gets lost in communication when they misuse words while talking to senior programmers, because they are effectively describing something different from what they mean.

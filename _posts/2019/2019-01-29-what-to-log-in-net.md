@@ -1,6 +1,9 @@
 ---
 title: "What to Log in .NET"
+author: Shawn
 date: "2019-01-29"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 In my [previous post](https://dancerscode.com/2019/01/17/techniques-and-advice-for-logging-in-net/), I discussed a lot of the _when_ of logging - when to log things in your application. So in this post I'd like to talk a little bit about _what_ to log.

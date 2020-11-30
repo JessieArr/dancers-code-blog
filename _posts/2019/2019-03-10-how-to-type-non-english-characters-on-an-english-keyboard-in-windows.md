@@ -1,6 +1,9 @@
 ---
 title: "How to Type Non-English Characters on an English Keyboard (in Windows)"
+author: Shawn
 date: "2019-03-10"
+categories: [Tech]
+tags: [Migrated]
 ---
 
 Occasionally for one reason or another, someone asks me how I type special characters such as accent marks in a "normal" keyboard (ex: Me gustaría ir a Cancún este año.) Leaving aside that U.S. keyboards are no more or less normal than any other country's keyboards, it's a pretty good question without an obvious answer. There are two main ways I use to type these sorts of characters:

@@ -1,6 +1,9 @@
 ---
 title: "Fix for Logitech G930 Shutting Off Every 15 minutes"
+author: Shawn
 date: "2018-07-25"
+categories: [Tech]
+tags: [Migrated]
 ---
 
 Not too long ago I shopped around for a wireless headset which had surround surround support, and eventually settled on the [Logitech G930 Headset](http://www.amazon.com/gp/product/B003VANOFY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003VANOFY&linkCode=as2&tag=danscod07-20&linkId=GWSRFWBFHMSUZJPA "Logitech G930 headset").

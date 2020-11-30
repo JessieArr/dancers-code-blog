@@ -1,6 +1,9 @@
 ---
 title: "Test Benefit Analysis"
+author: Shawn
 date: "2019-11-13"
+categories: [Testing]
+tags: [Migrated]
 ---
 
 When planning out our tests, it is important to consider whether they are valuable. While it is easy to see the value of a test - it tells us if something in our software is broken. Yet it is also important to consider the costs of our tests to ensure that they do not outweigh the benefits.

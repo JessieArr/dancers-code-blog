@@ -1,6 +1,9 @@
 ---
 title: "Javascript is the Right Flavor of Bad"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 People are often very hard on Javascript. They make fun of it in “Wat” videos, its community produces a 23 new frameworks every nanosecond, and it’s a common target of criticism among people looking for a dynamically typed language to ridicule.

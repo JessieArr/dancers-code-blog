@@ -1,6 +1,9 @@
 ---
 title: "The annoying MySQL Web Platform Installer Bug"
+author: Shawn
 date: "2018-07-25"
+categories: [Programming]
+tags: [Migrated]
 ---
 
 So I recently ran into the following error while installing the second WordPress site on a fresh VM:

@@ -1,6 +1,9 @@
 ---
 title: "Role of Test Automation in a CI/CD Pipeline"
+author: Shawn
 date: "2019-11-14"
+categories: [Testing]
+tags: [Migrated]
 ---
 
 While automated tests can be useful even when their actual execution is triggered manually, even greater benefits can be realized when we also design automation to execute them.
