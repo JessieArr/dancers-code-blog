@@ -3,7 +3,7 @@ title: "Techniques and Advice for Logging in .NET"
 author: Shawn
 date: "2019-01-17"
 categories: [Programming]
-tags: [Migrated]
+tags: [Logging, .NET]
 ---
 
 When setting out to design maintainable software, one of the most critical things to bear in mind is creating feedback loops that allow you to make code decisions based on the application's actual use and performance under real-world circumstances. A crucial aspect of this is that your application **needs to be able to tell you when something is wrong.**
@@ -27,13 +27,13 @@ This is the most basic form of exception logging, but its great benefit is that 
 
 In ASP.NET applications, you can [define a method in your Global.asax file](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/aspnet-error-handling#application-level-error-handling) to handle all errors that occur during processing of an HTTP request:
 
-```
+``` c#
 void Application_Error(object sender, EventArgs e)
 ```
 
 In an application using the Owin pipeline, you can [write a simple middleware which wraps all subsequent middleware executions in a try/catch](https://stackoverflow.com/a/34493054/1504529), something like this:
 
-```
+``` c#
 app.Use((context, next) =>
 {
   try
@@ -48,7 +48,7 @@ app.Use((context, next) =>
 
 In .NET desktop applications, you can use the [AppDomain](https://docs.microsoft.com/en-us/dotnet/api/system.appdomain?view=netframework-4.7.2) class' UnhandledException and FirstChanceException lifecycle events to log either all exceptions or only unhandled exceptions, whichever you prefer [(note that in recent versions of .NET Core console apps this works as well!)](https://github.com/dotnet/corefx/pull/11275):
 
-```
+``` c#
 AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
 {
   var ex = args.ExceptionObject;
@@ -60,7 +60,7 @@ AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
 
 Any time your application interacts with a downstream dependency, such as a database or another API, you should wrap the interaction in a try/catch and log any exceptions that get thrown. This is incredibly useful for determining when failures in your application are caused by bugs or outages in other people's code!
 
-```
+``` c#
 try
 {
   myDownstreamDependency.SendRequest()
@@ -82,7 +82,7 @@ Another thing we want to know about in our application is when something causes 
 
 So any operation which a user initiates which could cause a bad user experience if it were to take too long should be wrapped in some form of performance logging. A great tool for this is [the .NET Stopwatch class](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=netframework-4.7.2).
 
-```
+``` c#
 var stopwatch = new Stopwatch();
 stopwatch.Start();
 // Do something
@@ -95,7 +95,7 @@ After calling the Stop method on our Stopwatch, then we can check its ElapsedMil
 
 Logging the performance of all HTTP Requests is a great way to get a high-level overview of the performance of a web application. Depending on your architecture there are a few ways of doing this, but in ASP.NET applications with a Global.asax file, you can define methods to handle the ASP.NET lifecycle events for the beginning and end of handling a request:
 
-```
+``` c#
 private Stopwatch _stopwatch;
 protected void Application_BeginRequest()
 {
@@ -111,7 +111,7 @@ protected void Application_EndRequest()
 
 In an Owin application (such as ASP.NET Core apps), it's even easier, you can just define a middleware near the beginning of your Owin pipeline that calls the rest of your middleware, and log the performance there:
 
-```
+``` c#
 app.Use((context, next) =>
 {
   var stopwatch = new Stopwatch();
@@ -155,7 +155,7 @@ Logging key events in your application lifecycle can be really useful for diagno
 
 In a .NET Core application, the easiest place to do this is right in the beginning of the Main method:
 
-```
+``` c#
 public static void Main(string[] args)
 {
   // Write your log here!
@@ -165,15 +165,13 @@ public static void Main(string[] args)
 
 For older .NET Framework WebApps (MVC/WebForms), you will instead need to do this during the Application\_Start HttpApplication lifecycle event in your Global.asax file:
 
-```
+``` c#
 protected void Application_Start()
 {
   // Write your log here!
   // Usually startup things like dependency injection etc. go here.
 }
-```
-
- 
+``` 
 
 For WPF desktop applications, the App.xaml.cs constructor or the MainWindow's constructor are good places.
 

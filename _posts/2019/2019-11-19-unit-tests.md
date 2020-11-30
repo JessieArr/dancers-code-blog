@@ -32,6 +32,7 @@ Let's look at one example of actual code that implements a working Unit Test. Fo
 
 First, let us take a look at our System Under Test - in this case we have a simple Client class which calls to a downstream dependency and then handles failures by ensuring that exception messages are logged, and then rethrowing the exception.
 
+``` c#
 using System;
 
 namespace XUnitTestProject1
@@ -60,9 +61,11 @@ namespace XUnitTestProject1
         }
     }
 }
+```
 
 In our test, we wish to simulate a failure in a downstream dependency, and then assert that our class handles such a failure properly. This is a useful type of test since if we were to use the actual implementation of our dependency, it would often be difficult to manufacture a realistic failure on demand, but thanks to mocking our dependency, we can simply configure it to fail on demand.
 
+``` c#
 using Moq;
 using System;
 using Xunit;
@@ -100,6 +103,7 @@ namespace XUnitTestProject1
         }
     }
 }
+```
 
 On lines 13 and 14, we instantiate our mocks. Then we call the constructor of our SUT and provide these mocks as constructor arguments which get stored in private fields within our SUT. Then on line 17 we configure our mocked dependency to throw an exception any time the `Foo` method is called with any argument (`It.IsAny<MyRequest>()`) Finally we instantiate an expectedException property and initialize it to null so that we can later test that it has been set as we expected, proving that our exception was rethrown.
 

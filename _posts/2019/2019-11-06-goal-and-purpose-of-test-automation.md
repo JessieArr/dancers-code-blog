@@ -3,7 +3,7 @@ title: "Goal and Purpose of Test Automation"
 author: Shawn
 date: "2019-11-06"
 categories: [Testing]
-tags: [Migrated]
+tags: [Automation]
 ---
 
 When considering designing a Test Automation strategy, a good first step is to consider exactly what the goal of your test automation will be. It is important to know what test automation can do for you, and what its limitations are.

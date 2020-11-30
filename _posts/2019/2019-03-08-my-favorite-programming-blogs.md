@@ -3,7 +3,7 @@ title: "My Favorite Programming Blogs"
 author: Shawn
 date: "2019-03-08"
 categories: [Programming]
-tags: [Migrated]
+tags: [Blog]
 ---
 
 I maintain a list of programming blogs which have had made a big impression on me, so that I can go back and read them once in a while. I recently realized that there's probably people who would also like to go through them, so... here they are!

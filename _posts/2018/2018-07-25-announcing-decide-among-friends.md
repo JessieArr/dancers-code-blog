@@ -3,7 +3,6 @@ title: "Announcing Decide Among Friends!"
 author: Shawn
 date: "2018-07-25"
 categories: [Programming]
-tags: [Migrated]
 ---
 
 Hey, guys!

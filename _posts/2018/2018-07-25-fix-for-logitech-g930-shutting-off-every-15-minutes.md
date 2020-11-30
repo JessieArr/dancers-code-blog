@@ -3,7 +3,7 @@ title: "Fix for Logitech G930 Shutting Off Every 15 minutes"
 author: Shawn
 date: "2018-07-25"
 categories: [Tech]
-tags: [Migrated]
+tags: [Logitech]
 ---
 
 Not too long ago I shopped around for a wireless headset which had surround surround support, and eventually settled on the [Logitech G930 Headset](http://www.amazon.com/gp/product/B003VANOFY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003VANOFY&linkCode=as2&tag=danscod07-20&linkId=GWSRFWBFHMSUZJPA "Logitech G930 headset").
@@ -18,7 +18,7 @@ One particularly annoying problem many people seem to have is that, while the he
 
 With the default install location, the file is located at the following path: C:\\Program Files\\Logitech Gaming Software\\Resources\\G930\\Manifest\\Device\_Manifest.xml
 
-You can simply change the value in the <battery> node’s turnOffInterval attribute to “0” to disable this battery saving feature entirely.
+You can simply change the value in the `<battery>` node’s turnOffInterval attribute to “0” to disable this battery saving feature entirely.
 
 This is well and good, but I always forget the path when I reinstall the software on a new machine, and don’t feel that this is very intuitive for people who aren’t comfortable editing XML config files manually.
 

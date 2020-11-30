@@ -3,7 +3,6 @@ title: "Starting the Hello Language Project"
 author: Shawn
 date: "2018-07-25"
 categories: [Programming]
-tags: [Migrated]
 ---
 
 So I recently realized that while I often read blogs and social media comments about a really wide variety of languages, I actually only tend to use a handful on actual projects I work on. I’m most comfortable with C# and Type/Javascript, so those are the tools I use to solve programming problems I encounter. I have about 5 years of experience in both, and between the two, I can write code for basically every platform thanks to projects like mono and the ubiquity of Javascript. They’re really versatile languages.
