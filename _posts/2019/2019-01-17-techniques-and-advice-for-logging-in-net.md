@@ -3,7 +3,7 @@ title: "Techniques and Advice for Logging in .NET"
 author: Shawn
 date: "2019-01-17"
 categories: [Programming]
-tags: [Logging, .NET]
+tags: [Logging, dotnet]
 ---
 
 When setting out to design maintainable software, one of the most critical things to bear in mind is creating feedback loops that allow you to make code decisions based on the application's actual use and performance under real-world circumstances. A crucial aspect of this is that your application **needs to be able to tell you when something is wrong.**
