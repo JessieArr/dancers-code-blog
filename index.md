@@ -1,4 +1,4 @@
 # Test
 This is a test
 
-![Flowers](/images/flowers.png)
+![Flowers](/assets/img/posts/image-not-found.png)

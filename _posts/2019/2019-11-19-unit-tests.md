@@ -10,7 +10,7 @@ Unit Tests are tests written with the most narrow scope possible. Definitionally
 
 Due to the fact that each test will have some context that must be set up, followed by an action whose result we wish to assert, followed by some assertions about the result, the [Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html) model has become a common one which we will follow in our examples below.
 
-![](images/image-1.png)
+![](/assets/img/posts/image-not-found.png)
 
 Given
 

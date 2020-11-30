@@ -28,7 +28,7 @@ Most of the time it works exactly as you expect, doing cat things and turning st
 
 The good and bad parts of the language are very clear and obvious, which is why it’s possible to learn how to work around them within the lifetime of a mortal. Then you just get the Good Bits of Javascript, and you’re able to enjoy working with it.
 
-!["x](images/wR3ZxfB.jpg)
+!["x](/assets/img/posts/image-not-found.png)
 
 Javascript, the Good Parts
 
