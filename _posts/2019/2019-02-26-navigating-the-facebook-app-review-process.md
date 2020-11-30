@@ -34,7 +34,7 @@ This one caught me off guard since it wasn't clear based on the Business Use opt
 
 ## Know About Test Apps
 
-This one is crucial - the first time I applied for the user\_link permission, I simply described how the permission would be used. There was no way for my app to request the permission, even from my [Test Users](https://developers.facebook.com/docs/apps/test-users), so I was surprised to have my application rejected saying that I must show a live demo of the feature - at first I really wasn't sure how to even go about fulfilling this request.
+This one is crucial - the first time I applied for the user_link permission, I simply described how the permission would be used. There was no way for my app to request the permission, even from my [Test Users](https://developers.facebook.com/docs/apps/test-users), so I was surprised to have my application rejected saying that I must show a live demo of the feature - at first I really wasn't sure how to even go about fulfilling this request.
 
 It took me quite some time to find, and Facebook's documentation doesn't really point you toward it, but [Test Apps](https://developers.facebook.com/docs/apps/test-apps/) are the solution to this issue. You can create a Test App associated with your app account. Test Apps can never be set to Live mode - meaning that real Facebook users will never be able to actually use them. But they can be used by your test users, and have access to every permission which allows you to use the App ID and Secret for your Test App to create a live demo of any permission you wish to request, and allow Facebook to test it in a live environment during app review.
 

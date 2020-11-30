@@ -163,7 +163,7 @@ public static void Main(string[] args)
 }
 ```
 
-For older .NET Framework WebApps (MVC/WebForms), you will instead need to do this during the Application\_Start HttpApplication lifecycle event in your Global.asax file:
+For older .NET Framework WebApps (MVC/WebForms), you will instead need to do this during the Application_Start HttpApplication lifecycle event in your Global.asax file:
 
 ``` c#
 protected void Application_Start()

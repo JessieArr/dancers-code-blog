@@ -18,7 +18,7 @@ First let’s take a look at some pretty pictures that describe how the Steam Ma
 
 It’s not too complex of a process conceptually, but our computers are doing a lot of work in the background to make it happen. So how can we be sure that we’ve set them up properly so that they can do their job?
 
-**Reference: Steam server port information from Valve:** [https://support.steampowered.com/kb\_article.php?ref=8571-GLVN-8711](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
+**Reference: Steam server port information from Valve:** [https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711](https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711)
 
 Let’s start from the beginning with items 1 and 2 from the diagram above:
 

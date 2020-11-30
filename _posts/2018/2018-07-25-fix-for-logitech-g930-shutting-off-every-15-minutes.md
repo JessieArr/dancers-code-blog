@@ -16,7 +16,7 @@ It’s really a shame because the hardware itself is quite good, and it is the o
 
 One particularly annoying problem many people seem to have is that, while the headset works just fine out of the box, as soon as they install the Logitech Gaming Software, it begins to [turn itself off every 15 minutes!](https://forums.logitech.com/t5/Logitech-G-Headsets/G930-headset-auto-shut-off/td-p/504096 "Logitech Support Forums") This happened to me as well, and it turns out that it is just a default power-saving setting in the XML config used by LGS to determine how it should manage the headset. Since it’s a config file you’d think that you could just change the headset’s settings in LGS – no such luck. LGS provides no way in the UI to update this setting, requiring you to find and modify the XML file manually, or just get used to it shutting off every 15 minutes.
 
-With the default install location, the file is located at the following path: C:\\Program Files\\Logitech Gaming Software\\Resources\\G930\\Manifest\\Device\_Manifest.xml
+With the default install location, the file is located at the following path: C:\\Program Files\\Logitech Gaming Software\\Resources\\G930\\Manifest\\Device_Manifest.xml
 
 You can simply change the value in the `<battery>` node’s turnOffInterval attribute to “0” to disable this battery saving feature entirely.
 

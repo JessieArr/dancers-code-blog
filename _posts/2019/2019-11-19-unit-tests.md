@@ -39,23 +39,23 @@ namespace XUnitTestProject1
 {
     public class MyClient : IMyClient
     {
-        private IMyLogger \_logger;
-        private IMyDependency \_downstreamDependency;
+        private IMyLogger _logger;
+        private IMyDependency _downstreamDependency;
         public MyClient(IMyLogger logger, IMyDependency dependency)
         {
-            \_logger = logger;
-            \_downstreamDependency = dependency;
+            _logger = logger;
+            _downstreamDependency = dependency;
         }
 
         public void DoTheThing(MyRequest request)
         {
             try
             {
-                \_downstreamDependency.Foo(request);
+                _downstreamDependency.Foo(request);
             }catch(Exception ex)
             {
                 request.Failed = true;
-                \_logger.Log(ex.Message);
+                _logger.Log(ex.Message);
                 throw;
             }
         }
@@ -74,8 +74,8 @@ namespace XUnitTestProject1
 {
     public class MyUnitTest
     {
-        \[Fact\]
-        public void GivenDownstreamFailure\_DoTheThing\_Rethrows()
+        [Fact]
+        public void GivenDownstreamFailure_DoTheThing_Rethrows()
         {
             // GIVEN
             var mockLogger = new Mock<IMyLogger>();

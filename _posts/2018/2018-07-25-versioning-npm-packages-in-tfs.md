@@ -11,18 +11,18 @@ So I recently needed to build an NPM package with TFS, and wanted the version nu
 So I finally I just wrote a simple Powershell script to handle it, and wanted to reproduce it here for the benefit of others who have the same issue:
 
 ``` powershell
-cd $env:BUILD\_SOURCESDIRECTORY
+cd $env:BUILD_SOURCESDIRECTORY
 $a = Get-Content 'package.json' -raw | ConvertFrom-Json
-$a.version=$a.version.Substring(0, $a.version.LastIndexOf(\\".\\")) + \\".\\" + $env:BUILD\_BUILDID
+$a.version=$a.version.Substring(0, $a.version.LastIndexOf(\\".\\")) + \\".\\" + $env:BUILD_BUILDID
 $a | ConvertTo-Json  | set-content 'package.json'
 ```
 
 Or, if you use GitVersion like we do, after running the GitVersion build step, you will have new environment variables with version numbers in different formats available, which can be used like so:
 
 ``` powershell
-cd $env:BUILD\_SOURCESDIRECTORY
+cd $env:BUILD_SOURCESDIRECTORY
 $a = Get-Content 'package.json' -raw | ConvertFrom-Json
-$a.version = $env:GITVERSION\_NuGetVersion
+$a.version = $env:GITVERSION_NuGetVersion
 $a | ConvertTo-Json  | set-content 'package.json'
 ```
 

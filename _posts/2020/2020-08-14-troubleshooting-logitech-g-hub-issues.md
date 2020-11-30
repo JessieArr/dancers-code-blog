@@ -32,7 +32,7 @@ Delete the LGHUB folders in the following two locations:
 Once this is done, some users report success. But others have claimed that they needed to delete the LGHUB Uninstall record from their registry. To edit your registry:
 
 - Press the Windows key, then type "regedit" and open the Registry Editor.
-- In the path bar at the top, enter the following path: "Computer\\HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
+- In the path bar at the top, enter the following path: "Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
 - Find the LGHUB record in Uninstall. For me it was named {521C89BE-637F-4274-A840-BAAF7460C2B2} You can check the "DisplayName" property to be sure - it should say "Logitech G HUB"
 - Delete the Registry entry.
 
@@ -46,7 +46,7 @@ Windows likes to be restarted. It's just a thing. I'm not sure whether this is r
 
 Some users report that the latest version of the LGHUB installer doesn't work for them, and that they were able to work around the issue by downloading an older version. You can view many of Logitech's downloader releases on their FTP page here: [ftp://ftp.logitech.com/pub/techsupport/gaming/](ftp://ftp.logitech.com/pub/techsupport/gaming/).
 
-Some users have said that "lghub\_installer\_2018.7.2535.exe" did it for them, others have said that "lghub\_installer\_2018.9.2778.exe" was the magic sauce. I'll leave that to you to determine.
+Some users have said that "lghub_installer_2018.7.2535.exe" did it for them, others have said that "lghub_installer_2018.9.2778.exe" was the magic sauce. I'll leave that to you to determine.
 
 #### The Install Still Hangs!
 
@@ -73,7 +73,8 @@ This happened to me, but was eventually resolved by just updating the G Hub. If 
 > If your G PRO X is not being detected, Please follow these steps: 
 > 
 > • Go to device manager → click on " View " tab then choose show hidden devices → Go to " Sound, Video and Game controllers " → Your headset should appear as "Logitech PRO X Gaming Headset" and the Driver Provider should be Logitech with a Driver Date of 7/2019. 
-> • If not Go to device manager → click on " View " tab then choose show hidden devices → Go to " Sound, Video and Game controllers " → Right-click Properties → Driver tab → Update Driver → Browse my computer for driver software → <X>:\\ProgramData\\LGHUB\\depots\\<select the latest build>\\driver\_audio.
+>
+> • If not Go to device manager → click on " View " tab then choose show hidden devices → Go to " Sound, Video and Game controllers " → Right-click Properties → Driver tab → Update Driver → Browse my computer for driver software → <X>:\\ProgramData\\LGHUB\\depots\\<select the latest build>\\driver_audio.
 
 They also mention that if this doesn't work, you can reinstall the G Hub software and try reinstalling it again. In that cause, I guess just scroll to the top of this blog and start over, with my condolences.
 
