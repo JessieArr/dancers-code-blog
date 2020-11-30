@@ -102,11 +102,17 @@ As a dancer, the intro is an important opportunity to "groove" to the song befor
 
 The verse is what could be thought of as the "main" part of the song. in songs with lyrics, this is where most of the song's story is told. Verses are generally very similar to one another in terms of instrumentation, but the vocals will almost always be different. As an example, consider the lyrics for the first verse of Don't by Ed Sheeran:
 
-> I met this girl late last year She said, "Don't you worry if I disappear." I told her I'm not really looking for another mistake I called an old friend thinking that the trouble would wait
+> I met this girl late last year
+> She said, "Don't you worry if I disappear."
+> I told her I'm not really looking for another mistake
+> I called an old friend thinking that the trouble would wait
 
 And compare this to the lyrics of the second verse:
 
-> And for a couple weeks I only wanna see her We drink away the days with a take-away pizza Before a text message was the only way to reach her Now she's staying at my place and loves the way I treat her
+> And for a couple weeks I only wanna see her
+> We drink away the days with a take-away pizza
+> Before a text message was the only way to reach her
+> Now she's staying at my place and loves the way I treat her
 
 We can see that not only are they different words, but they also tend to make up chapters in the songwriter's story. Bonus tip: the "**knock knock knock** on my hotel door" that you want to hit while you're dancing is at the start of the third verse. This is why having terminology to describe these things is useful!
 
