@@ -12,14 +12,15 @@ Below are links to a series of articles I have written or plan to write on Test 
 Theory:
 
 - Goal and purpose of Test Automation
-- Test Benefit Analysis
-- [Role of Test Automation in a CI/CD Pipeline](/posts/role-of-test-automation-in-a-ci-cd-pipeline)
+- [Goal and purpose of Test Automation]({% post_url 2020-11-06-goal-and-purpose-of-test-automation %})
+- [Test Benefit Analysis]({% post_url 2020-11-13-test-benefit-analysis %})
+- [Role of Test Automation in a CI/CD Pipeline]({% post_url 2020-11-14-role-of-test-automation-in-a-ci-cd-pipeline %})
 - [Discussion on Test Type Naming]({% post_url 2020-09-30-notes-on-test-naming %})
 
 Testing Scopes:
 
-- [Unit](/posts/unit-tests)
-- [Integration](/posts/integration-tests)
+- [Unit]({% post_url 2020-11-19-unit-tests %})
+- [Integration]({% post_url 2020-12-04-integration-tests %})
 - System (coming soon™)
 - UI (coming soon™)
 - Why Test Scopes Matter (coming soon™)
