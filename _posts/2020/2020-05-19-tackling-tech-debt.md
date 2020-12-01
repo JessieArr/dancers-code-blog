@@ -21,7 +21,7 @@ Or:
 
 Therefore, I think it is important to break down what we mean when we talk about tech debt. I would suggest breaking tech debt items into 4 general categories:
 
-![Tech Debt Tiers](assets/img/posts/tackling-tech-debt/tech-debt-tiers.png)
+![Tech Debt Tiers](/content/2020/tech-debt-tiers.png)
 
 These are ranked from highest cost at the top, to lowest at the bottom. Let's go through each of them to explore some examples:
 
@@ -83,11 +83,11 @@ This may all seem pedantic, but it's actually critical to the success of both yo
 
 In short, it is an optimization problem. The speed at which we can deliver features is a function of the quality of the code itself. Clean code is easy to change and enhance, which means features get built faster. Yet there is often a "shortcut" path - getting the feature working "good enough for now" while leaving the code in a worse state than it was to begin with. So let us consider a few possible scenarios:
 
-![Technical Overinvestment](assets/img/posts/tackling-tech-debt/tech-overinvestment.png)
+![Technical Overinvestment](/content/2020/tech-overinvestment.png)
 
 This is the scenario that Project Management fears - an over-optimization for code quality, where large technical investments are made without regard to how beneficial they are to the product. The ability to ship features more rapidly may eventually come, but does so slowly, and meanwhile the company's competitors are shipping features and eating our market share. At the end of 2 years, we have shipped only 18 new features despite having had the development bandwidth to ship much more.
 
-![Deadline Driven Development](assets/img/posts/tackling-tech-debt/deadline-driven-development.png)
+![Deadline Driven Development](/content/2020/deadline-driven-development.png)
 
 This is the scenario that developers fear - endless deadlines that try to wring features from a codebase that increasingly resembles spaghetti. We _can_ get more features to market in the short term. But the development team is feeling the pain of neglected code - their feature work is slow, bug reports and customer complaints pile up, the performance metrics gradually get worse, and there's that one server that just falls over from time to time and they have to step away from dinner with their family and log in at 9pm to prop it up again.
 
@@ -95,7 +95,7 @@ They know that this isn't sustainable, it makes their job unrewarding, and by th
 
 While this approach may be warranted for startups, or businesses on the brink of extinction, it is not a good long-term strategy for an organization that expects to still be around in a few years.
 
-![Consistent Technical Investment](assets/img/posts/tackling-tech-debt/consistent-investment.png)
+![Consistent Technical Investment](/content/2020/consistent-investment.png)
 
 But what both parties would probably _hope_ to achieve is something that looks a lot like this: the most onerous technical debt is remediated continually, and as a consequence of this technical investment, feature delivery can remain constant. While we will always have _some_ technical debt, we do not allow it to become suffocating. And this allows us to continue shipping features as a consistently high rate for any number of years. In this model we are able to ship 40 features in 2 years, even more than the deadline-driven model - and without deteriorating our ability to ship future features in the process.
 
@@ -109,7 +109,7 @@ There are no silver bullets - the circumstances any given company and technology
 
 First, our approach for dealing with each type of tech debt will vary, but let's look at an enhanced version of our chart from earlier:
 
-![Texh Debt Tiers 2](assets/img/posts/tackling-tech-debt/tech-debt-line.png)
+![Texh Debt Tiers 2](/content/2020/tech-debt-line.png)
 
 I propose that large refactors such as those in Tiers 3 and 4 are expensive enough that they deserve to be planned and prioritized alongside other backlog items, with the development team being the [SME](https://en.wikipedia.org/wiki/Subject-matter_expert)s on both the technical effort and its value.
 

@@ -8,7 +8,7 @@ tags: [Migrated]
 
 In my experience, as DJs gain more experience, they go through several phases. I'd like to discuss them today, to help my friends who are just starting out DJing dances think about how to level up their DJ game as quickly as possible:
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 ### Phase 1: The "Music I Like" DJ
 
@@ -30,7 +30,7 @@ As DJs endeavor to bump their game up to the next level, they move on to Phase 3
 
 These DJs invest a lot of time, love, and energy into their playlists. They pick the first song carefully, making sure that their first song is a popular one that kicks off their set with a bang and gets everyone on the floor. They pay close attention to transitions between songs, making sure not to have too many songs of the same tempo/style in a row, to give their dancers a breather between fast songs, and making sure that the vibe doesn't become sleepy with too many slow songs in a row.
 
-![chrome_2019-01-13_23-35-32.jpg](/assets/img/posts/image-not-found.png)
+![chrome_2019-01-13_23-35-32.jpg](/content/image-not-found.png)
 
 They also make sure that their dancers with particular tastes don't have to go too long between songs that they really love - trying to mix in various styles at regular intervals. This gives their dancers a nice rhythm for the evening, taking social breaks on the songs they like less, but knowing it will only be 5-10 minutes until a song they will love is played. Everyone needs to take breaks sometimes, that's expected. But we've all had the disappointing experience of going 15-20 minutes without hearing a song that really makes us want to jump up and dance.
 

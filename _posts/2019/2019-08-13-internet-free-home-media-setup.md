@@ -20,9 +20,9 @@ At this point I did some research and figured out a solution that is working (in
 
 After some research, I found out that [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) (Digital Living Network Alliance) is a standard designed for sharing streaming media content - including on the same home network via [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play). What's more, it is supported by PLEX but is disabled by default. So you simply need to [turn it on](https://support.plex.tv/articles/200350536-dlna/) once you have your PLEX server set up (I already did - setup is easy if you have internet.)
 
-![chrome_2019-08-13_00-43-45](/assets/img/posts/image-not-found.png)
+![chrome_2019-08-13_00-43-45](/content/image-not-found.png)
 
-![chrome_2019-08-13_00-45-30](/assets/img/posts/image-not-found.png)
+![chrome_2019-08-13_00-45-30](/content/image-not-found.png)
 
 Once this is done, PLEX will begin broadcasting its availability via DLNA on your home network, and devices on the same network which support UPnP can discover it automatically.
 
@@ -32,7 +32,7 @@ The PLEX viewer is great, but it's primarily designed assuming you will have int
 
 So I decided to ditch the PLEX viewer entirely and discovered that [VLC Media Player](https://www.videolan.org/vlc/) supports UPnP. Not only this, but they have nice Android and iOS apps as well. On Windows the setup is trivial: simply open the Playlist view and select Universal Plug'n'Play:
 
-![vlc_2019-08-13_00-52-50](/assets/img/posts/image-not-found.png)
+![vlc_2019-08-13_00-52-50](/content/image-not-found.png)
 
 Once this is done, you should see your PLEX server in the list of DLNA devices broadcasting on your network. Select it, and then you will be able to browse its contents in a folder-like structure.
 
@@ -44,11 +44,11 @@ To turn off mobile data on Android, go to Settings > Network & Internet > Mobile
 
 Simply open VLC, then in settings select "Local Network"
 
-![ApplicationFrameHost_2019-08-13_01-00-09](/assets/img/posts/image-not-found.png)
+![ApplicationFrameHost_2019-08-13_01-00-09](/content/image-not-found.png)
 
 Then after VLC searches your local network, you should see your PLEX server as one of the results:
 
-![ApplicationFrameHost_2019-08-13_01-04-27](/assets/img/posts/image-not-found.png)
+![ApplicationFrameHost_2019-08-13_01-04-27](/content/image-not-found.png)
 
 Now select your server and you should be able to browse your media via the virtual folders.
 

@@ -8,7 +8,7 @@ tags: [Migrated]
 
 Boy. That sure was an ending, huh? The fans sure seem to think so:
 
-![chrome_2019-05-22_21-39-56.png](/assets/img/posts/image-not-found.png)
+![chrome_2019-05-22_21-39-56.png](/content/image-not-found.png)
 
 So the ending wasn't _popular_ - but was it bad? To quote George R. R. Martin: [Yes and no. And yes. And no.](http://georgerrmartin.com/notablog/2019/05/20/an-ending/)
 
@@ -80,7 +80,7 @@ Theon Greyjoy spent his childhood as a ward/political prisoner of the Starks, an
 
 Both men spend much of the series broken and despairing - having had their identity and futures taken from them by the petty cruelty of minor characters - bastards and footmen of lesser lords. The two characters spend the rest of the series searching for a new identity for themselves. Theon disappoints us all along the way - refusing to flee when Asha mounts a rescue attempt, and jumping ship rather than fighting for her when Euron takes her captive. Conversely, Jamie seems to be kindling a sense of morality and honor in his relationship with Brienne.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 Yet in the final hour, both men march North to Winterfell to subvert our expectations. Theon dies fighting to protect Bran - the boy he had once pretended to murder. And Jamie beds Brienne - a good woman who truly loved him, before deciding that he doesn't have the will to choose honor over love and marches south to die at the side of the cruel Queen Cersei.
 
@@ -92,7 +92,7 @@ The Children of the Forest are symbolic of innocence. They inhabited Westeros be
 
 The Night King, then, represents a sort of nihilism. Beset with the horrors of death and mortality, the Night King embraces death and makes it his ally. As he travels, he brings icy chills and despair in his wake, and those he kills do not simply die - they rise to fight alongside him as he grows ever more powerful.
 
-![Image result for night king meme](/assets/img/posts/image-not-found.png)
+![Image result for night king meme](/content/image-not-found.png)
 
 The Night King is an exploration of the idea of despair turned to bitterness. Of humanity not only acknowledging our own mortality, but becoming embittered by it and choosing to cheer for it, to bring it to others and to welcome our own eventual oblivion.
 
@@ -110,7 +110,7 @@ Eventually, Arya is sent to assassinate an actress - and [told not to question t
 
 Eventually, her path leads her to King's Landing, where she passes her final test. The Hound's character is one of bitterness, driven by a lifelong desire for revenge against his brother, Gregor. His face is scarred from having been pushed into a fire by his brother as a child (remember fire is a symbol of passion - in this case for vengeance) and he seeks to kill his brother. In their final scene together, the Hound stops Arya in her tracks by very pointedly [asking her](https://www.youtube.com/watch?v=3DgACkATLvA): "look at me! You wanna be like me?" She recognizes that, as much as she looked up to Sandor as a warrior and father-figure, his desire for revenge had brought him nothing but misery and pain. So she abandons her quest to kill Cersei, and instead turns to trying to help the survivors of King's Landing.
 
-![chrome_2019-05-23_01-48-24.png](/assets/img/posts/image-not-found.png)
+![chrome_2019-05-23_01-48-24.png](/content/image-not-found.png)
 
 ## Ravens and the Three-Eyed Raven
 
@@ -122,7 +122,7 @@ Thus, the Three-Eyed Raven symbolizes a character who can see all of the truth a
 
 Tyrion's character symbolizes self-aggrandizing intelligence and rationality. With them, "a small man can cast a large shadow." He constantly outwits and outsmarts those around him, cracking jokes and drinking wine all the while. He is also a good man - seeking what is best for the common people in a mostly-selfless manner.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 Yet he is also rather prideful, and this gets him into trouble on many occasions. Often when he is outsmarted, it's because he underestimated his opponent. He also overestimates his ability to keep Daenerys' brutality in line during her ascent to power.
 
@@ -138,7 +138,7 @@ Reminiscent of the Catholic Church during the middle ages, the Faith Militant sy
 
 A vital character on both a narrative and a symbolic level, Jon is a man of great ability and honor, yet with no ambition. He willingly forsakes his right to a wife and lands to join the Night's Watch. And every time he is offered a position of power - Lord Commander of the Night's Watch, King in the North, and even King of the Seven Kingdoms, he shrugs it off.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 His primary motivation seems to simply be to do good - to protect the weak. This leads him to appeal to Daenerys for help stopping the Night King, and later to join her on her quest to break chains and free the Seven Kingdoms from the clutches of Queen Cersei.
 
@@ -146,7 +146,7 @@ His primary motivation seems to simply be to do good - to protect the weak. This
 
 In the end we see a lot of these threads of symbolism come together. Daenerys exposes the dark side of the idealist leader - the grisly means that are justified by her selfless ends. We also see in Grey Worm one of the many dangers of this mindset, as he butchers the Lannister prisoners - sometimes people find that they rather enjoy the killing that is meant to lead to the utopia.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 So Jon, with some encouragement from Tyrion, kill Daenerys. Upon discovering her dead body, Drogon melts the Iron Throne - if Daenerys can't have it, then no one will (remember that the throne was also forged by dragon fire.) The end of the throne symbolizes that the Game of Thrones has come to an end. There is no one left with a large army and grand ambitions willing to kill for power.
 
@@ -154,7 +154,7 @@ In the end, Tyrion, who symbolizes intelligence, finally realizes his own inabil
 
 Sam suggests democracy at this point, but is scoffed at - the writers don't want us to think they've gone soft, and an idea like democracy takes some warming up to. But what we see next as the lords elect Bran to be their king, is the birth of the Republic - a government where power is limited by agreed-upon rules. Sansa also points out that Bran cannot father children - this is important since it means that the idea of inheriting political power is being put to rest.
 
-![Image result for bran's dick doesn't work](/assets/img/posts/image-not-found.png)
+![Image result for bran's dick doesn't work](/content/image-not-found.png)
 
 But let's remember what Bran represents: the world's memory. History. In essence, by electing Bran to be their king, ushering in the Republic, and doing away with absolute monarchy inherited by birth or conquest, the lords of Westeros are choosing to place their memory of the horrors of the past ahead of their own ambitions. They could strive for power, yes. But over the last 8 seasons both we the viewers and the inhabitants of Westeros have seen where the Game of Thrones leads - to death and destruction and sorrow.
 
@@ -164,7 +164,7 @@ Crucially, when Sansa announces that Winterfell will not bend the knee to the ne
 
 Yeah. Season 8 was definitely the weakest season in my opinion. While all of this great narrative structure was there, it just didn't feel like things were being given time to breathe. Crucially, events in the final episodes seemed to be driven mostly by a desire to wrap things up in this particular way, rather than by the characters and their motivations - a critical flaw since the rest of the series was _so_ deeply character driven.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 But in the defense of the writers - this series has been on air for a decade now. With such a massive and talented cast, continuing to contract everyone season after season is challenging. Furthermore, many of the show's stars have been catapulted to celebrity status by the show, and are no doubt looking to sink their teeth into new roles and ventures.
 

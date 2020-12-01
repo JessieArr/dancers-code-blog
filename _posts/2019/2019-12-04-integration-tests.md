@@ -10,11 +10,11 @@ Integration Tests, in contrast to Unit Tests, test the behavior of more than one
 
 Below is an example Integration Test:
 
-![Integration Test Diagram](/assets/img/posts/integration-tests/integration-test-diagram.png)
+![Integration Test Diagram](/content/2019/integration-test-diagram.png)
 
 A useful way of conceptualizing a large-scale Integration Test is by considering a single application with a layered architecture, with each layer in the stack having its own type of responsibility:
 
-![Integration Test Diagram](/assets/img/posts/integration-tests/integration-test-diagram-2.png)
+![Integration Test Diagram](/content/2019/integration-test-diagram-2.png)
 
 In the above example, we will wire up the real implementation of classes in our stack from the top of the stack, all the way down as close to the bottom as we can get while still abstracting away external dependencies. Ideally we will have a clean interface to consume which handles communication with our external dependencies, such as a class in a third party library. But we are not always so lucky, and in this case we can use mocked versions of our interfaces that represent the Data Access Layer, which is responsible for reading and writing data to our external dependencies.
 
@@ -78,15 +78,15 @@ The previous test was useful to illustrate a faulty interaction between two clas
 
 For this example, let’s create a new ASP.NET Core web application in Visual Studio, then add an XUnit test project to the solution:
 
-![Integration Test Diagram](/assets/img/posts/integration-tests/new-asp-net-core-web-app.png)
+![Integration Test Diagram](/content/2019/new-asp-net-core-web-app.png)
 
 Next, let’s add a reference from our XUnit project to our webapp:
 
-![Integration Test Diagram](/assets/img/posts/integration-tests/xunit-reference.png)
+![Integration Test Diagram](/content/2019/xunit-reference.png)
 
 Next, let’s add a reference to the Microsoft.AspNetCore.Mvc.Testing NuGet package in our Test project:
 
-![Integration Test Diagram](/assets/img/posts/integration-tests/integration-testing-reference.png)
+![Integration Test Diagram](/content/2019/integration-testing-reference.png)
 
 This package contains useful tools for designing Integration tests like the one in this example. In particular, it contains the WebApplicationFactory class which can be used to bootstrap an in-memory instance of our web application, along with a client that can be used to route HTTP requests to it over the loopback. The WebApplicationFactory constructor accepts a generic type argument, which is the type of the Startup class which will be used to bootstrap our web application. A trivial test using this class looks as follows:
 
@@ -103,7 +103,7 @@ This package contains useful tools for designing Integration tests like the one 
 
 Once we have written this test, we can then test that it works by setting breakpoints in either the Startup class or in the codebehind for the Index path (Index.cshtml.cs) Then we can run the test in our debugger and see that our breakpoints are hit:
 
-![Integration Test Diagram](/assets/img/posts/integration-tests/integration-test-breakpoint.png)
+![Integration Test Diagram](/content/2019/integration-test-breakpoint.png)
 
 Because our current implementation has no external dependencies, this can already be considered an Integration Test. However as we expand our application’s logic, we will likely take on external dependencies. How do we mock them?
 

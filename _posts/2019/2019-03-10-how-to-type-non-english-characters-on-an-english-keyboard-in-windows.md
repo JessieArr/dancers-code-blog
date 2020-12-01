@@ -22,19 +22,19 @@ This requires you to customize the language settings for your operating system, 
 
 To get started, open your "Region & Language Settings" and select the options for English (United States):
 
-![ApplicationFrameHost_2019-03-10_16-50-51.jpg](/assets/img/posts/image-not-found.png)
+![ApplicationFrameHost_2019-03-10_16-50-51.jpg](/content/image-not-found.png)
 
 Then Add a keyboard:
 
-![ApplicationFrameHost_2019-03-10_16-52-24.jpg](/assets/img/posts/image-not-found.png)
+![ApplicationFrameHost_2019-03-10_16-52-24.jpg](/content/image-not-found.png)
 
 Then select the United States-International keyboard:
 
-![ApplicationFrameHost_2019-03-10_16-53-06.jpg](/assets/img/posts/image-not-found.png)
+![ApplicationFrameHost_2019-03-10_16-53-06.jpg](/content/image-not-found.png)
 
 Now Windows recognizes two different keyboard layouts. You can switch between them by clicking on the new keyboard selector which will appear on your taskbar when you have multiple keyboard layouts, or by pressing Windows Key + Spacebar.
 
-![2019-03-10_16-54-12.jpg](/assets/img/posts/image-not-found.png)
+![2019-03-10_16-54-12.jpg](/content/image-not-found.png)
 
 Once you have United States-International selected, now you can type right-leaning accent marks my typing an apostrophe followed by any vowel. As an example: ' + a (Ex: á.) You can combine all sorts of punctuation with characters this way:
 

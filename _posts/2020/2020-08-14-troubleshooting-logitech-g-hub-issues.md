@@ -36,7 +36,7 @@ Once this is done, some users report success. But others have claimed that they 
 - Find the LGHUB record in Uninstall. For me it was named {521C89BE-637F-4274-A840-BAAF7460C2B2} You can check the "DisplayName" property to be sure - it should say "Logitech G HUB"
 - Delete the Registry entry.
 
-![G Hub Registry Entry](/assets/img/posts/logitech-g-hub-issues/registry.png)
+![G Hub Registry Entry](/content/2020/registry.png)
 
 #### Restart Windows
 
@@ -60,9 +60,9 @@ I have no idea what sort of shenanigans they're doing in the code for these plug
 
 Once you've done all of this and gotten it running, navigate to the G Hub Settings and check for updates.
 
-![G Hub Settings](/assets/img/posts/logitech-g-hub-issues/g-hub-settings.png)
+![G Hub Settings](/content/2020/g-hub-settings.png)
 
-![G Hub Updates](/assets/img/posts/logitech-g-hub-issues/g-hub-updates.png)
+![G Hub Updates](/content/2020/g-hub-updates.png)
 
 This took a while for me, and eventually led to me having to restart my computer twice - once for the G Hub update, and once to install the drivers to my headset, because Logitech doesn't know how to write good software. But after that I was up and running.
 

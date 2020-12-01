@@ -34,7 +34,7 @@ Furthermore, with most employers complaining about having difficulty finding _
 
 If nothing else, it would be nice to get rid of the gut-wrenchingly naïve way that programming is portrayed in popular television.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 “It’s a military grade encryption!” – writers of Arrow. Hate to break it to you guys, but that code doesn’t even _compile._
 
@@ -54,13 +54,13 @@ Yet I own a tool set, and an electric drill. I used these just the other day t
 
 People already understand the difference between someone who owns a drill, and someone who makes a living doing carpentry. They also understand the difference between someone who does carpentry as a contractor for a living, and someone who has spent 60 hours per week for most of their life working with wood because it is both their passion and their profession.
 
-![](/assets/img/posts/image-not-found.png)
+![](/content/image-not-found.png)
 
 Chinese artist Zheng Chunhui’s world record breaking 40-foot long wooden sculpture.
 
 This, I think, is the key distinction that is often lacking when teaching people about programming. Hobbyist, professional, and artisan are all _different levels of skill_ in the _same discipline_. But many of the most common tasks people need computers to perform are also ones that can be achieved by a hobbyist programmer. Tweaking the CSS on a wordpress blog, automating some simple paperwork task the office, or simply being able to identify _which_ tasks might be automated so that one can make better suggestions to the creators of software.
 
-[![Thanks, XKCD!](/assets/img/posts/image-not-found.png)
+[![Thanks, XKCD!](/content/image-not-found.png)
 
 Thanks, XKCD!
 

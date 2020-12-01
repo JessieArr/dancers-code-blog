@@ -8,7 +8,7 @@ tags: [Migrated]
 
 When I was a new dancer, I found the WCS points and scoring system to be pretty opaque and hard to understand:
 
-![chrome_2018-12-10_20-44-27.png](/assets/img/posts/image-not-found.png)
+![chrome_2018-12-10_20-44-27.png](/content/image-not-found.png)
 
 Yep, all those numbers totally make sense
 

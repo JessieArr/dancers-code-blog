@@ -18,7 +18,7 @@ This blog will be a quick overview of a few terms which I commonly hear misused 
 
 The following code example defines one Field and two Properties:
 
-![devenv_2016-02-22_21-01-01](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_21-01-01](/content/image-not-found.png)
 
 Fields are local values defined on a class which, when on the left-hand side of an assignment statement, do not execute any logic, as they have no concept of a getter or setter. Properties, on the other hand, execute some logic during assignment statements that you can either leave with default values by using auto-properties, as in the property named AutoProperty, or can have custom logic defined for their getters and setters, as in the example named CustomProperty.
 
@@ -26,13 +26,13 @@ One important difference to note: since interfaces can only include methods, int
 
 **Class versus Object:**
 
-![devenv_2016-02-22_21-07-25](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_21-07-25](/content/image-not-found.png)
 
 The two small code snippets in this screenshot demonstrate the difference between a Class and an Object. Classes are definitions of a data structure which expose a constructor we can invoke in order to create instances of that data structure. An Object is a single instance of a Class. To put it another way: Objects have a point in your code where they are created, then exist until they are eventually cleaned up by the garbage collector when they are no longer referenced. Classes exist at all times after compilation, and are used to create Object instances.
 
 **Interface versus Implementation versus Inheritance**
 
-![devenv_2016-02-22_21-14-44](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_21-14-44](/content/image-not-found.png)
 
 Here we see examples of Inheritance, an Interface, and the Interface’s Implementation. An Interface is simply a definition of a collection of methods made publicly available by any class that Implements the Interface. Our Interface declares a single public method named Subtract which takes two integer arguments. But you will notice that IInterface does not define any method body for this method. The method body must instead be defined by any class that chooses to Implement that interface.
 
@@ -44,7 +44,7 @@ Note also that in C# (and any language which does not support multiple Inheritan
 
 **Operator versus Operand**
 
-![devenv_2016-02-22_21-27-28](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_21-27-28](/content/image-not-found.png)
 
 Operators are symbols (or collections of symbols) in code which perform some operation on the values immediately adjacent to them. The values which are operated on in this way are called Operands. C# has Operators which take one, two, or three Operands. They are called Unary Operators, Binary Operators, and Ternary Operators, respectively.
 
@@ -58,7 +58,7 @@ And last we have the Ternary Operator ‘?:’ – to which we are passing the r
 
 **Line versus Statement versus Expression**
 
-![devenv_2016-02-22_21-42-29](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_21-42-29](/content/image-not-found.png)
 
 An Expression is a sequence of Operands and Operators which evaluates to a single value. In the example above, ‘5 + 4’ and all of the other arithmetic operations we perform are Expressions.
 
@@ -74,7 +74,7 @@ The third line, however, contains 3 variable declaration Statements, 3 assignmen
 
 For this example I will use Javascript, since C# does not have a way to define Functions which are not also Methods:
 
-![devenv_2016-02-22_21-55-33](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_21-55-33](/content/image-not-found.png)
 
 Functions are definitions of a collection of Statements which may be executed at runtime.
 
@@ -84,7 +84,7 @@ In our example above, Add would commonly be described as a Function, while Subtr
 
 **Parameters versus Arguments**
 
-![devenv_2016-02-22_22-02-16](/assets/img/posts/image-not-found.png)
+![devenv_2016-02-22_22-02-16](/content/image-not-found.png)
 
 Parameters and Arguments are closely related and often confused (in fact I only just recently learned the difference thanks to [this StackOverflow post](http://stackoverflow.com/a/1663724/1504529 "Thanks, Stack Overflow!"))
 
