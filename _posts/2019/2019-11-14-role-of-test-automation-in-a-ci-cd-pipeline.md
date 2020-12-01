@@ -3,7 +3,7 @@ title: "Role of Test Automation in a CI/CD Pipeline"
 author: Shawn
 date: "2019-11-14"
 categories: [Testing]
-tags: [Migrated]
+tags: [Automation]
 ---
 
 While automated tests can be useful even when their actual execution is triggered manually, even greater benefits can be realized when we also design automation to execute them.
@@ -16,7 +16,7 @@ The Pipeline
 
 Let us consider a fairly typical Continuous Delivery Pipeline:
 
-![Click to Enlarge](/content/image-not-found.png)
+![Click to Enlarge](/content/2019/ci-cd-pipeline.png)
 
 After code is committed, it progresses from left to right. The code will eventually be submitted to a [Pull Request](https://en.wikipedia.org/wiki/Distributed_version_control#Pull_requests) process. The Pull Request process will require an automated build to complete, during which unit and integration tests will be run. If these tests fail, the build will fail, preventing the Pull Request from being completed until code changes are made to allow a passing build. The build process may also include one or more forms of Static Analysis such as [Linting](https://en.wikipedia.org/wiki/Lint_(software)).
 

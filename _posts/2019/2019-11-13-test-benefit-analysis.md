@@ -47,7 +47,7 @@ Maximizing the Benefits
 
 When designing our tests, two basic principles can help us ensure that they are as valuable as possible. First, the [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html):
 
-![](/content/image-not-found.png)
+![Test Pyramid](/content/2019/test-pyramid.png)
 
 As we design our tests, we should bear in mind that as the scope of our tests increases and includes more of our code, and even other systems, the time and cost of maintaining and executing the test also increases. Thus we should aim to have a small number of UI tests which test the most important features of our products, while having a very large suite of Unit Tests which may each take less than a millisecond to execute while testing only a few lines of code. In other words, we should ensure that the value of what is being tested is high when the cost of the test is also high.
 
@@ -75,7 +75,9 @@ Timing Issues
 
 Another common source of unreliability in tests is timing issues, such as the dreaded thread sleep:
 
+``` csharp
 Thread.Sleep(3000);
+```
 
 In scenarios where your test needs to _wait_ before taking the next action, it is always better to have the test wait _for_ something - such as a UI element becoming visible, a page to load, or for a database record to be updated. Many test frameworks have built-in tools to do this, but if yours does not, you can design the test to check for the completion of whatever you're waiting for in a loop until the operation you're waiting on is done (just be sure to include a timeout so you don't accidentally wait forever if something goes wrong!)
 
