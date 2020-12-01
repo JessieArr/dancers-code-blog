@@ -3,20 +3,18 @@ title: "What to Log in .NET"
 author: Shawn
 date: "2019-01-29"
 categories: [Programming]
-tags: [Migrated]
+tags: [Logging]
 ---
 
 In my [previous post](https://dancerscode.com/2019/01/17/techniques-and-advice-for-logging-in-net/), I discussed a lot of the _when_ of logging - when to log things in your application. So in this post I'd like to talk a little bit about _what_ to log.
 
 Having lots of logs is certainly better than having none, but if the logs don't capture important information that allow you to make decisions about your application design, then they are not as valuable as they could be. So in this post I will discuss certain key pieces of information which can greatly enrich your logs:
 
-  - Web Request Data
-  - User Data
-  - Caller Data
-  - Environment Data
-  - Error Data
-
-[](#)
+  - [Web Request Data](#web-request-data)
+  - [User Data](#user-data)
+  - [Caller Data](#caller-data)
+  - [Environment Data](#environment-data)
+  - [Error Data](#error-data)
 
 ## Web Request Data
 
@@ -52,7 +50,7 @@ The User Agent is another important header to capture - it indicates the web bro
 
 Below is an example of how to fetch all of these values in an MVC or WebForms app. In your Controller/Page, there is a Request property defined which contains lots of information about the request:
 
-``` c#
+``` csharp
 var hostname = Request.UserHostName;
 var path = Request.Path;
 var queryString = Request.QueryString;
@@ -66,7 +64,7 @@ var userAgent = Request.UserAgent;
 
 The implementation of the MVC Controller's Request property's class is a little different in .NET Core, but the same principles still apply here:
 
-``` c#
+``` csharp
 var hostname = Request.Host;
 var path = Request.Path;
 var queryString = Request.QueryString;
@@ -80,7 +78,7 @@ var userAgent = Request.Headers["User-Agent"];
 
 If you need to retrieve the request data from the Owin context during the execution of your Owin pipeline (this is a great place for performance and error logging!) then it is very similar to the above example, except that we will get the request object from the Owin context instead of a property on our Controller:
 
-``` c#
+``` csharp
 app.Use(async (context, next) =>
 {
   var hostname = context.Request.Host;
@@ -93,8 +91,6 @@ app.Use(async (context, next) =>
   return await next();
 }
 ```
-
-[](#)
 
 ## User Data
 
@@ -109,7 +105,7 @@ To get data about the current user, you will need access to the user's [Principa
 
 Once you have access to the user's principal, you can use it to check whether they are properly authenticated, and get their name:
 
-``` c#
+``` csharp
 var userPrincipal = Thread.CurrentPrincipal;
 var isAuthenticated = userPrincipal.Identity.IsAuthenticated;
 var userName = userPrincipal.Identity.Name;
@@ -125,7 +121,7 @@ C# exposes a couple of really handy attributes for this purpose which can be app
 
 To use these attributes, you simply need to add them to nullable string parameters on your method which does the logging:
 
-``` c#
+``` csharp
 private void CallerExample([CallerMemberName] string memberName = null,
     [CallerFilePath] string filePath = null)
 {
@@ -152,8 +148,6 @@ var machineName = Environment.MachineName;
 var threadId = Environment.CurrentManagedThreadId;
 var userAccount = Environment.UserName;
 ```
-
-[](#)
 
 ## Error Data
 
