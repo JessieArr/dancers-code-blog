@@ -3,7 +3,6 @@ title: "Why the Open Code of Conduct Isn’t for Me"
 author: Shawn
 date: "2018-07-25"
 categories: [Programming]
-tags: [Migrated]
 ---
 
 Github recently announced that they are [adopting a new code of conduct for their open source projects](https://github.com/blog/2039-adopting-the-open-code-of-conduct "adopting a new code of conduct"). Specifically, it is the [Open Code of Conduct](http://todogroup.org/opencodeofconduct/ "Open Code of Conduct"), published by the TODO Group.
