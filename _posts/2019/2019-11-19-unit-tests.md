@@ -3,14 +3,14 @@ title: "Unit Tests"
 author: Shawn
 date: 2019-11-19 12:00:00 -0600
 categories: [Testing]
-tags: [Migrated]
+tags: [Unit Tests]
 ---
 
 Unit Tests are tests written with the most narrow scope possible. Definitionally, they test the smallest unit of our software possible, usually just a single method within a class.
 
 Due to the fact that each test will have some context that must be set up, followed by an action whose result we wish to assert, followed by some assertions about the result, the [Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html) model has become a common one which we will follow in our examples below.
 
-![](/assets/img/posts/image-not-found.png)
+![Unit Test Diagram](/content/2019/unit-test-diagram.png)
 
 Given
 
