@@ -12,7 +12,7 @@ Below are links to a series of articles I have written or plan to write on Test 
 Theory:
 
 - Goal and purpose of Test Automation
-- [Goal and purpose of Test Automation]({% post_url 2020-11-06-goal-and-purpose-of-test-automation %})
+- [Goal and purpose of Test Automation]({% post_url 2019-11-06-goal-and-purpose-of-test-automation %})
 - [Test Benefit Analysis]({% post_url 2020-11-13-test-benefit-analysis %})
 - [Role of Test Automation in a CI/CD Pipeline]({% post_url 2020-11-14-role-of-test-automation-in-a-ci-cd-pipeline %})
 - [Discussion on Test Type Naming]({% post_url 2020-09-30-notes-on-test-naming %})
