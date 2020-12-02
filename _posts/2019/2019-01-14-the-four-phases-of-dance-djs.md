@@ -3,12 +3,12 @@ title: "The Four Phases of Dance DJs"
 author: Shawn
 date: "2019-01-14"
 categories: [Dancing]
-tags: [Migrated]
+tags: [DJ]
 ---
 
 In my experience, as DJs gain more experience, they go through several phases. I'd like to discuss them today, to help my friends who are just starting out DJing dances think about how to level up their DJ game as quickly as possible:
 
-![](/content/image-not-found.png)
+![Virtual DJ](/content\2019\01\virtual-dj.jpg)
 
 ### Phase 1: The "Music I Like" DJ
 
@@ -30,7 +30,7 @@ As DJs endeavor to bump their game up to the next level, they move on to Phase 3
 
 These DJs invest a lot of time, love, and energy into their playlists. They pick the first song carefully, making sure that their first song is a popular one that kicks off their set with a bang and gets everyone on the floor. They pay close attention to transitions between songs, making sure not to have too many songs of the same tempo/style in a row, to give their dancers a breather between fast songs, and making sure that the vibe doesn't become sleepy with too many slow songs in a row.
 
-![chrome_2019-01-13_23-35-32.jpg](/content/image-not-found.png)
+![chrome_2019-01-13_23-35-32.jpg](/content\2019\01\perfect-playlist.jpg)
 
 They also make sure that their dancers with particular tastes don't have to go too long between songs that they really love - trying to mix in various styles at regular intervals. This gives their dancers a nice rhythm for the evening, taking social breaks on the songs they like less, but knowing it will only be 5-10 minutes until a song they will love is played. Everyone needs to take breaks sometimes, that's expected. But we've all had the disappointing experience of going 15-20 minutes without hearing a song that really makes us want to jump up and dance.
 
@@ -40,7 +40,7 @@ But crowds change, tastes change, popular songs become played out, and we all kn
 
 These DJs create a playlist as a starting point, but know the old saying that "no playlist ever survives contact with the dancers."
 
-![The Shire and everything after: Warband goes live!](https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FB04S3VPIAAAwawm.jpg&f=1)
+![The Shire and everything after: Warband goes live!](/content\2019\01\first-contact.jpg)
 
 Because every crowd, every event, every evening is different, these DJs update their playlists on the fly based on who showed up and what the energy level of the room is like. If they see a large group of people sitting down for a while, they keep changing songs until they manage to play something that gets them on the floor. As they do this, they learn the tastes of the various cliques of dancers while still feeling out and shaping the vibe of the evening. As the evening gets late, they play more slower songs, but also know that songs with a slow tempo (BPM) can nonetheless have very high energy.
 

@@ -3,18 +3,20 @@ title: "Troubleshooting Steam Matchmaking Servers for Dummies"
 author: Shawn
 date: "2018-07-25"
 categories: [Gaming]
-tags: [Migrated]
+tags: [Steam]
 ---
 
 So I recently spent several hours troubleshooting my Space Engineers server, and learned a lot about how Steam does matchmaking while I was at it. I figured I’d make a blog post to share and hopefully save others some time.
 
 First let’s take a look at some pretty pictures that describe how the Steam Matchmaking service works in terms of hosting and joining a game server:
 
-![[gszNOSF]](/content/image-not-found.png)
+![Matchmaking Workflow 1](/content\2018\07\matchmaking-1.jpg)
 
-![[u6HUPdZ]](/content/image-not-found.png)
+![Matchmaking Workflow 2](/content\2018\07\matchmaking-2.jpg)
 
-![[26L7HPY]](/content/image-not-found.png)
+![Matchmaking Workflow 3](/content\2018\07\matchmaking-3.jpg)
+
+![Matchmaking Workflow 4](/content\2018\07\matchmaking-4.jpg)
 
 It’s not too complex of a process conceptually, but our computers are doing a lot of work in the background to make it happen. So how can we be sure that we’ve set them up properly so that they can do their job?
 
@@ -26,7 +28,7 @@ Let’s start from the beginning with items 1 and 2 from the diagram above:
 
 To be sure that this is working, start the Local/Console server and read what pops up in the console window. It should tell us near the bottom that it connected to Steam.
 
-![[G6r7YRf]](/content/image-not-found.png)
+![Space Engineers Dedicated Server](/content\2018\07\space-engineers-server.jpg)
 
 If this fails, then we need to ask ourselves the question: why can my dedicated server not send information **out** to the Steam servers?
 
@@ -54,7 +56,7 @@ For people hosting their servers at home, go here ([http://www.whatismyip.com/](
 
 If your server is communicating with Steam correctly, you should see information about your games:
 
-![[Cdaoc6Y]](/content/image-not-found.png)
+![Steam Server Browser](/content\2018\07\server-browser.jpg)
 
 So if you want Steam to be able to make an unsolicited connection to your server to scan the 30 Steam matchmaking ports, and then tell players what it found, your router and firewall need to allow **inbound** traffic on ports 27000 – 27030 (or possibly just the one port you’re actually hosting the game on.)
 
@@ -68,10 +70,10 @@ http://steamcommunity.com/groups/\[groupname here\]/memberslistxml/?xml=1
 
 Once you have your Steam group ID, you can add it to your server information:
 
-![[bxkhugz]](/content/image-not-found.png)
+![Space Engineers Config](/content\2018\07\space-engineers-config.jpg)
 
 0 will allow all connections. If you change the group ID field to something other than 0, then only Steam players in the designated group will be allowed to join. To test this, the Space Engineers game client can show us a list that is **not** filtered to exclude games which won’t allow you to join based on your group. Simply unckeck the ‘Allowed Groups’ box to see the full list of all servers:
 
-![[XJYuKaG]](/content/image-not-found.png)
+![Server List](/content\2018\07\server-list.jpg)
 
 And that’s about all I know about Steam matchmaking and troubleshooting Space Engineers dedicated servers. I hope this helps some folks out there!
