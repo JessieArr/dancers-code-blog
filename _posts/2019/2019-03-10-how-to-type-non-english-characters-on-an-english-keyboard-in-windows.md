@@ -22,7 +22,7 @@ This requires you to customize the language settings for your operating system, 
 
 To get started, open your "Region & Language Settings" and select the options for English (United States):
 
-![ApplicationFrameHost_2019-03-10_16-50-51.jpg](/content/image-not-found.png)
+![Language Options](/content/2019/03/language-options.jpg)
 
 Then Add a keyboard:
 
