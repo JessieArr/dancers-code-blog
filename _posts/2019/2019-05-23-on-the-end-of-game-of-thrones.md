@@ -24,13 +24,21 @@ Ice, cold, and the North are used throughout the series as symbols of death and 
 
 ## The Game of Thrones
 
-Conveniently, Cersei Lannister spells this one out for us very explicitly in [this scene](https://www.youtube.com/watch?v=ucB4UrhI-3w) from Season 1: "When you play the Game of Thrones, you win, or you die. There is no middle ground."
+Conveniently, Cersei Lannister spells this one out for us very explicitly in [this scene](https://www.youtube.com/watch?v=ucB4UrhI-3w) from Season 1: 
+
+> "When you play the Game of Thrones, you win, or you die. There is no middle ground." 
+>
+> \- Cersei Lannister
 
 This is demonstrating the very fatalistic view of the will to power that seems to be common among the lords and ladies of Westeros: if you want power, you either kill your competition, or you are killed by them. Even the throne itself is a symbol for this.
 
 ## The Iron Throne, the Seven Kingdoms, the Iron Price
 
-Iron is used in the series as a symbol for brutal conquest - imposing one's will on others by force. The iron throne is forged from the swords of the conquered: "_The breath of the greatest dragon forged the Iron Throne...the swords of the vanquished, a thousand of them, melted together like so many candles..._" - Viserys Targaryen.
+Iron is used in the series as a symbol for brutal conquest - imposing one's will on others by force. The iron throne is forged from the swords of the conquered: 
+
+> "_The breath of the greatest dragon forged the Iron Throne...the swords of the vanquished, a thousand of them, melted together like so many candles..._" 
+>
+> \- Viserys Targaryen.
 
 In the books, Aegon I even says that the throne was made of swords on purpose: a reminder that one should never sit easy on the throne. Those who have conquered can yet become the conquered. The fact that Westeros is referred to as the Seven Kingdoms is itself a reference to the fact that the nation was forged through conquest.
 
@@ -148,7 +156,7 @@ In the end we see a lot of these threads of symbolism come together. Daenerys ex
 
 ![King's Landing: Quicksaving](/content/2019/got-kings-landing.jpg)
 
-So Jon, with some encouragement from Tyrion, kill Daenerys. Upon discovering her dead body, Drogon melts the Iron Throne - if Daenerys can't have it, then no one will (remember that the throne was also forged by dragon fire.) The end of the throne symbolizes that the Game of Thrones has come to an end. There is no one left with a large army and grand ambitions willing to kill for power.
+So Jon, with some encouragement from Tyrion, kills Daenerys. Upon discovering her dead body, Drogon melts the Iron Throne - if Daenerys can't have it, then no one will (remember that the throne was also forged by dragon fire.) The end of the throne symbolizes that the Game of Thrones has come to an end. There is no one left with a large army and grand ambitions willing to kill for power.
 
 In the end, Tyrion, who symbolizes intelligence, finally realizes his own inability to think and scheme his way to a good outcome and realizes that a laying down of arms is in order. He suggests that the lords and ladies of Westeros select a king in order to hand down justice.
 
