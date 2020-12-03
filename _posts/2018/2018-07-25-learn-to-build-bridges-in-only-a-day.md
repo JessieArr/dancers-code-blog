@@ -3,7 +3,7 @@ title: "Learn to Build Bridges in Only a Day!"
 author: Shawn
 date: "2018-07-25"
 categories: [Programming]
-tags: [Migrated]
+tags: [Education]
 ---
 
 So I’ve been reading the [Joel on Software](http://www.joelonsoftware.com/) blog pretty religiously lately, and I’ve decided that part of his success was that most of his blog posts were so short he could probably do them in one sitting. I’ve been trying to blog more, and I think that short, hastily edited blog posts facilitate getting into the habit of writing more, which is a skill I want to keep sharp. So expect more, lower quality content from me from now on!
@@ -16,7 +16,7 @@ The biggest aspect of this movement that rubs programmers the wrong way, I think
 
 The following video was probably the most egregious example of the ignorant media. They don’t even manage to make it through the first minute of what purports to be objective coverage of the [Year of Code](http://yearofcode.org/) movement without describing the code as “baffling” and “gobbledygook.” It gets better when one of the directors of the program admits to not knowing how to code immediately before making broad assertions about the role of programming in our modern world.
 
-https://www.youtube.com/watch?v=-7x7GYItzS4
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-7x7GYItzS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 So the career programmers are probably understandably miffed at these sorts of descriptions of their profession, combined with the suggestion that anyone can do it without much effort and that “you can build a website in an hour!”
 
@@ -34,13 +34,13 @@ Furthermore, with most employers complaining about having difficulty finding _
 
 If nothing else, it would be nice to get rid of the gut-wrenchingly naïve way that programming is portrayed in popular television.
 
-![](/content/image-not-found.png)
+![Military Grade Encryption](/content\2018\07\military-grade-encryption.png)
 
-“It’s a military grade encryption!” – writers of Arrow. Hate to break it to you guys, but that code doesn’t even _compile._
+“It’s a military grade encryption!” – writers of Arrow.
 
- 
+Hate to break it to you guys, but that code doesn’t even _compile._
 
-https://www.youtube.com/watch?v=hkDD03yeLnU
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hkDD03yeLnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 That scene is essentially the programmer equivalent of a plumber announcing to a room full of contractors that he’s going to “Use a **wrench** to check the **valves** to see if there’s some sort of **aquatic discharge**” before rushing off, clearly in a hurry to get to work before his buzzwords get cold.
 
@@ -54,15 +54,13 @@ Yet I own a tool set, and an electric drill. I used these just the other day t
 
 People already understand the difference between someone who owns a drill, and someone who makes a living doing carpentry. They also understand the difference between someone who does carpentry as a contractor for a living, and someone who has spent 60 hours per week for most of their life working with wood because it is both their passion and their profession.
 
-![](/content/image-not-found.png)
+![Awesome Wood Carving](/content\2018\07\wood-carving.jpeg)
 
 Chinese artist Zheng Chunhui’s world record breaking 40-foot long wooden sculpture.
 
 This, I think, is the key distinction that is often lacking when teaching people about programming. Hobbyist, professional, and artisan are all _different levels of skill_ in the _same discipline_. But many of the most common tasks people need computers to perform are also ones that can be achieved by a hobbyist programmer. Tweaking the CSS on a wordpress blog, automating some simple paperwork task the office, or simply being able to identify _which_ tasks might be automated so that one can make better suggestions to the creators of software.
 
-[![Thanks, XKCD!](/content/image-not-found.png)
-
-Thanks, XKCD!
+![Thanks, XKCD!](/content\2018\07\xkcd-easy-impossible.png)
 
 Conveying the appropriate expectations to those learning to code and teaching useful basics to a wide audience of people is a Good Thing. But misleading people into thinking that difficult tasks are easy will hurt more than help. People should expect to learn to create simple applications to perform tasks that are both simple and useful.
 
