@@ -3,7 +3,7 @@ title: "Javascript is the Right Flavor of Bad"
 author: Shawn
 date: "2018-07-25"
 categories: [Programming]
-tags: [Migrated]
+tags: [Javascript]
 ---
 
 People are often very hard on Javascript. They make fun of it in “Wat” videos, its community produces a 23 new frameworks every nanosecond, and it’s a common target of criticism among people looking for a dynamically typed language to ridicule.
@@ -28,7 +28,7 @@ Most of the time it works exactly as you expect, doing cat things and turning st
 
 The good and bad parts of the language are very clear and obvious, which is why it’s possible to learn how to work around them within the lifetime of a mortal. Then you just get the Good Bits of Javascript, and you’re able to enjoy working with it.
 
-!["x](/content/image-not-found.png)
+!["Javascript: the Good Parts"](/content\2018\07\javascript-the-good-parts.jpg)
 
 Javascript, the Good Parts
 
