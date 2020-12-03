@@ -3,7 +3,7 @@ title: "Commonly Misused Programming Terms"
 author: Shawn
 date: "2018-07-25"
 categories: [Programming]
-tags: [Migrated]
+tags: [Education]
 ---
 
 One big challenge I often see new programmers struggle with early in their careers is that they often don’t know the correct vocabulary to describe the things they deal with in code.  As a result, often times a lot gets lost in communication when they misuse words while talking to senior programmers, because they are effectively describing something different from what they mean.
@@ -18,21 +18,21 @@ This blog will be a quick overview of a few terms which I commonly hear misused 
 
 The following code example defines one Field and two Properties:
 
-![devenv_2016-02-22_21-01-01](/content/image-not-found.png)
+![Field vs. Property](/content\2018\07\field-vs-property.png)
 
-Fields are local values defined on a class which, when on the left-hand side of an assignment statement, do not execute any logic, as they have no concept of a getter or setter. Properties, on the other hand, execute some logic during assignment statements that you can either leave with default values by using auto-properties, as in the property named AutoProperty, or can have custom logic defined for their getters and setters, as in the example named CustomProperty.
+Fields are local values defined on a class which, when on the left-hand side of an assignment statement, do not execute any logic, as they have no concept of a getter or setter. Properties, on the other hand, execute some logic during assignment statements that you can either leave with default values by using auto-properties, as in the property named `AutoProperty`, or can have custom logic defined for their getters and setters, as in the example named `_customProperty`.
 
 One important difference to note: since interfaces can only include methods, interfaces cannot expose Fields. They can, however, expose the getters and setters of Properties.
 
 **Class versus Object:**
 
-![devenv_2016-02-22_21-07-25](/content/image-not-found.png)
+![Class vs. Object](/content\2018\07\class-vs-object.png)
 
 The two small code snippets in this screenshot demonstrate the difference between a Class and an Object. Classes are definitions of a data structure which expose a constructor we can invoke in order to create instances of that data structure. An Object is a single instance of a Class. To put it another way: Objects have a point in your code where they are created, then exist until they are eventually cleaned up by the garbage collector when they are no longer referenced. Classes exist at all times after compilation, and are used to create Object instances.
 
 **Interface versus Implementation versus Inheritance**
 
-![devenv_2016-02-22_21-14-44](/content/image-not-found.png)
+![Implementation, Interface, Inheritance](/content\2018\07\implementation-inheritance.png)
 
 Here we see examples of Inheritance, an Interface, and the Interface’s Implementation. An Interface is simply a definition of a collection of methods made publicly available by any class that Implements the Interface. Our Interface declares a single public method named Subtract which takes two integer arguments. But you will notice that IInterface does not define any method body for this method. The method body must instead be defined by any class that chooses to Implement that interface.
 
@@ -44,7 +44,7 @@ Note also that in C# (and any language which does not support multiple Inheritan
 
 **Operator versus Operand**
 
-![devenv_2016-02-22_21-27-28](/content/image-not-found.png)
+![Operator vs. Operands](/content\2018\07\operator-operands.png)
 
 Operators are symbols (or collections of symbols) in code which perform some operation on the values immediately adjacent to them. The values which are operated on in this way are called Operands. C# has Operators which take one, two, or three Operands. They are called Unary Operators, Binary Operators, and Ternary Operators, respectively.
 
@@ -58,7 +58,7 @@ And last we have the Ternary Operator ‘?:’ – to which we are passing the r
 
 **Line versus Statement versus Expression**
 
-![devenv_2016-02-22_21-42-29](/content/image-not-found.png)
+![Statement vs Expression](/content\2018\07\statement-expression.png)
 
 An Expression is a sequence of Operands and Operators which evaluates to a single value. In the example above, ‘5 + 4’ and all of the other arithmetic operations we perform are Expressions.
 
@@ -74,17 +74,17 @@ The third line, however, contains 3 variable declaration Statements, 3 assignmen
 
 For this example I will use Javascript, since C# does not have a way to define Functions which are not also Methods:
 
-![devenv_2016-02-22_21-55-33](/content/image-not-found.png)
+![Function vs. Method](/content\2018\07\function-vs-method.png)
 
 Functions are definitions of a collection of Statements which may be executed at runtime.
 
-Methods are specific examples of Functions whose context for execution is an instance of an object. This means that those methods will have access to a particular object’s private data, which may not otherwise be accessible. Most languages including Javascript and C# use the ‘this’ keyword to as a reference to the object instance to which a Method belongs at runtime.
+Methods are specific examples of Functions whose context for execution is an instance of an object. This means that those methods will have access to a particular object’s private data, which may not otherwise be accessible. Most languages including Javascript and C# use the ‘this’ keyword to reference to the object instance to which a Method belongs at runtime.
 
 In our example above, Add would commonly be described as a Function, while Subtract could be considered a Method, since it depends on being executed within the context of a particular object, whose properties it will access with the ‘this’ keyword.
 
 **Parameters versus Arguments**
 
-![devenv_2016-02-22_22-02-16](/content/image-not-found.png)
+![Parameter vs. Argument](/content\2018\07\parameter-vs-argument.png)
 
 Parameters and Arguments are closely related and often confused (in fact I only just recently learned the difference thanks to [this StackOverflow post](http://stackoverflow.com/a/1663724/1504529 "Thanks, Stack Overflow!"))
 
