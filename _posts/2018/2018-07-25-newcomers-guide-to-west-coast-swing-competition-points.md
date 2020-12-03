@@ -3,14 +3,14 @@ title: "Newcomer’s Guide to West Coast Swing Competition Points"
 author: Shawn
 date: "2018-07-25"
 categories: [Dancing]
-tags: [Migrated]
+tags: [West Coast Swing, Competition]
 ---
 
 When I was a new dancer, I found the WCS points and scoring system to be pretty opaque and hard to understand:
 
-![chrome_2018-12-10_20-44-27.png](/content/image-not-found.png)
+![WCS Score Sheet](/content\2018\07\wcs-score-sheet.png)
 
-Yep, all those numbers totally make sense
+Yep, all those numbers totally make sense... right? No?
 
 Lately I’ve been thinking about scoring in the WCS community a lot. I’ve had some friends, both new and experienced in the community express confusion at the scoring systems in conversation with me. And I’ve also recently started working on an [open-source project](https://github.com/JessieArr/RelativePlacement/) to create a free code implementation of the WSDC Relative Placement Scoring System.
 
@@ -22,33 +22,14 @@ So, without further ado, here is everything you need to know about scoring in W
 
 The [World Swing Dance Council](https://www.worldsdc.com/) (WSDC) uses points as a guideline for event directors to place competitiors according to their skill level. Each skill level defined by the WSDC has certain point requirements for its participants. The full details are explained in their [Points Registry Document](https://www.worldsdc.com/wp-content/uploads/2016/02/WSDC-Points-Registry-Document-7-1-2015.pdf), but I will summarize the highlights here:
 
-**Skill Level**
-
-**Description**
-
-Newcomer
-
-Beginner, must have earned no points. You may skip ahead to Novice if you prefer.
-
-Novice
-
-Competitors must compete in Novice until they earn 16 Novice points. At 30 points, you _must_ begin competing in Intermediate.
-
-Intermediate
-
-_May_ move to Advanced with 30 Intermediate points. _Must_ move to Advanced with 45 Intermediate points.
-
-Advanced
-
-_May_ move to All Star with 45 Advanced points in the last 36 months. _Must_ move to All Star with 60 points in the last 36 months.
-
-All Star
-
-Must have _either_ 45 Advanced points in the last 36 months, _or_ 3 All Star points in the last 36 months.
-
-Champion/Invitational/Pro
-
-Determined by the event director.
+| Skill Level | Description
+| :------------- | :----------: |
+| Newcomer | Beginner, must have earned no points. You may skip ahead to Novice if you prefer. |
+| Novice | Competitors must compete in Novice until they earn 16 Novice points. At 30 points, you _must_ begin competing in Intermediate. |
+| Intermediate | _May_ move to Advanced with 30 Intermediate points. _Must_ move to Advanced with 45 Intermediate points. |
+| Advanced | _May_ move to All Star with 45 Advanced points in the last 36 months. _Must_ move to All Star with 60 points in the last 36 months. |
+| All Star | Must have _either_ 45 Advanced points in the last 36 months, _or_ 3 All Star points in the last 36 months. |
+| Champion/Invitational/Pro | Determined by the event director. |
 
 In addition, the WSDC defines two additional competition categories which are defined by age. Juniors is for competitiors under 18 years old, while Masters is for competitiors over 50.
 
@@ -62,117 +43,14 @@ It can be pretty neat to look at someone’s points after they have competed for
 
 WSDC points are awarded based on both your placement in the competition, as well as the number of competitors in your skill level/role. Larger events award more points for the same placement, since there are more competitors. The WSDC defines six tiers of competition:
 
-Tier
-
-\# of Competitors
-
-1st Place
-
-2nd Place
-
-3rd Place
-
-4th Place
-
-5th Place
-
-Additional Placements
-
-Tier 1
-
-5-10
-
-3
-
-2
-
-1
-
-0
-
-0
-
-0
-
-Tier 2
-
-11-19
-
-6
-
-4
-
-3
-
-2
-
-1
-
-0
-
-Tier 3
-
-20-39
-
-10
-
-8
-
-6
-
-4
-
-2
-
-1pt (up to 12th Place)
-
-Tier 4
-
-40-79
-
-15
-
-12
-
-10
-
-8
-
-6
-
-1pt (up to 15th Place)
-
-Tier 5
-
-80-129
-
-20
-
-16
-
-14
-
-12
-
-10
-
-2pt (up to 12th Place)
-
-Tier 6
-
-130+
-
-25
-
-22
-
-18
-
-15
-
-12
-
-2pt (up to 12th Place)
+| Tier | \# of Competitors | 1st Place | 2nd Place | 3rd Place | 4th Place | 5th Place | Additional Placements |
+| :------------- | :----------: |:----------: |:----------: |:----------: |:----------: |:----------: |:----------: |
+| Tier 1 | 5-10 | 3 | 2 | 1 | 0 | 0 | 0
+| Tier 2 | 11-19 | 6 | 4 | 3 | 2 | 1 | 0 |
+| Tier 3 | 20-39 | 10 | 8 | 6 | 4 | 2 | 1pt (up to 12th Place) |
+| Tier 4 | 40-79 | 15 | 12 | 10 | 8 | 6 | 1pt (up to 15th Place) |
+| Tier 5 | 80-129 | 20 | 16 | 14 | 12 | 10 | 2pt (up to 12th Place) |
+| Tier 6 | 130+ | 25 | 22 | 18 | 15 | 12 | 2pt (up to 12th Place) |
 
 Note that the same skill level competition may be in two different tiers for leaders and follows. For instance, if a competition has 39 leaders, and 40 follows, it will award points according to the tier 3 rules for leaders, but follows will get points according to the tier 4 rules, even though they compete and are judged as a couple in finals.
 
