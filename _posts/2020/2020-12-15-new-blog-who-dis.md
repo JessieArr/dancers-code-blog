@@ -1,12 +1,10 @@
 ---
-title: "New Blog Who Dis"
+title: "New Blog Who Dis??"
 author: Shawn
 date: "2020-12-15"
 categories: ["Blog"]
 tags: ["Blog"]
 ---
-
-# New Blog Who Dis?
 
 You may notice I've completely overhauled the blog lately. Over the years this blog has been hosted 4 different places, and I'm hopeful this will be my last migration.
 
@@ -30,7 +28,7 @@ Images can be embedded using the same symtax as a link, simply adding an exclama
 
 It's also possible to embed HTML inline in Markdown, to embed things like Youtube videos or even links to other websites:
 
-<iframe src="https://duckduckgo.com" style="height: 300px; width:400px;" title="DuckDuckGo">
+<iframe src="https://google.com" style="height: 300px; width:400px;" title="Google">
 </iframe>
 
 Most content you would want to embed in any blog is supported in a very simple syntax using Markdown.
@@ -60,6 +58,12 @@ The templating engine used is [Liquid](https://shopify.github.io/liquid/) - a si
 ## Theme
 
 And last but not least, you don't have to build your entire Jekyll site from scratch. There are a number of great [themes](http://jekyllthemes.org/) out there. But the one I settled on was [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) - I really like its dark code editor-style theme and minimal, responsive layout. Kudos to its author for doing a really great job on it!
+
+## Comments
+
+Chirpy has built-in support for embedded comments using [Disqus](https://disqus.com/) - a comments-as-a-service company that has a really nice minimal UI and provides a lot of features like spam prevention, sharing, notifications, etc. that would be a lot of work to achieve in a home-rolled solution, and work great on a static website like this!
+
+![Disqus](/content/2020/12/disqus.png)
 
 ## Conclusion
 
