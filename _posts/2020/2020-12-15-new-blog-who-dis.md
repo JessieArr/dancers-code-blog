@@ -28,7 +28,7 @@ Images can be embedded using the same symtax as a link, simply adding an exclama
 
 It's also possible to embed HTML inline in Markdown, to embed things like Youtube videos or even links to other websites:
 
-<iframe src="https://www.w3schools.com" style="height: 300px; width:400px;" title="W3Schools">
+<iframe src="https://dancerscode.com/posts/newcomers-guide-to-west-coast-swing-competition-points/" style="height: 300px; width:400px;" title="Another Article">
 </iframe>
 
 Most content you would want to embed in any blog is supported in a very simple syntax using Markdown.
