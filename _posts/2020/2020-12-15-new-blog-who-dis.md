@@ -8,7 +8,7 @@ tags: ["Blog"]
 
 You may notice I've completely overhauled the blog lately. Over the years this blog has been hosted 4 different places, and I'm hopeful this will be my last migration.
 
-This time it's being hosted (for free!) on [Github Pages](https://pages.github.com/), which is a really neat little service by Github. Essentially they will allow you to serve HTML, CSS and JS files from one of your repository as a static website. And they support Jekyll compilation of Markdown and HTML templates into HTML pages as well. So you simply maintain your blog as a series of Markdown files. Easy!
+This time it's being hosted (for free!) on [Github Pages](https://pages.github.com/), which is a really neat little service by Github. Essentially they will allow you to serve HTML, CSS and JS files from one of your repositories as a static website. And they support Jekyll compilation of Markdown and HTML templates into HTML pages as well. So you simply maintain your blog as a series of Markdown files. Easy!
 
 Let's talk about some of the tech in the stack!
 
@@ -20,7 +20,7 @@ Let's talk about some of the tech in the stack!
 
 Jekyll supports compiling markdown into HTML using markdown engines. There are a few markdown flavors supported, but the default is [Kramdown](https://kramdown.gettalong.org/).
 
-Markdown is a very simple shorthand syntax for styling text on a webpage. You essentially write your text as you would in a word processor, but have the ability to use symbols to change the text style. Wrapping a word in asterisks (*) makes it *italic* - if you use two it becomes **bold**. Headers are denoted by beginning a line with pound (#) symbols. You can wrap a link in  and then follow it with a link in parenthesis [square brackets\]\(https://google.com\) to turn it into a hyperlink [like so](https://google.com).
+Markdown is a very simple shorthand syntax for styling text on a webpage. You essentially write your text as you would in a word processor, but have the ability to use symbols to change the text style. Wrapping a word in asterisks (\*) makes it *italic* - if you use two it becomes **bold**. Headers are denoted by beginning a line with pound (#) symbols. You can wrap a link in  and then follow it with a link in parenthesis [square brackets\]\(https://google.com\) to turn it into a hyperlink [like so](https://google.com).
 
 Images can be embedded using the same symtax as a link, simply adding an exclamation mark to the beginning \!\[Like So\]\(/path/to/your/image.jpg\)
 
@@ -63,6 +63,10 @@ And last but not least, you don't have to build your entire Jekyll site from scr
 Chirpy has built-in support for embedded comments using [Disqus](https://disqus.com/) - a comments-as-a-service company that has a really nice minimal UI and provides a lot of features like spam prevention, sharing, notifications, etc. that would be a lot of work to achieve in a home-rolled solution, and work great on a static website like this!
 
 ![Disqus](/content/2020/12/disqus.png)
+
+## Thinking Ahead
+
+What if something happens to Github Pages one day? No worries - Jekyll is open source, which means I can simply start doing the compilation of my blog into static HTML on my own, and host it anywhere. Serving plain HTML, JS, and CSS files from a disk in response to web requests is about as simple as it gets from a web hosting perspective, so this is a very future-proof approach to designing a blog!
 
 ## Conclusion
 
