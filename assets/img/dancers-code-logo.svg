@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="dancers-code-logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#1a318e"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="282.44594"
+     inkscape:cy="433.03979"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 42.763125,79.37905 H 57.730217 L 72.69731,106.90781 59.333836,132.03115 H 43.832203 l 13.898014,-25.39061 z"
+       id="path10" />
+    <path
+       style="fill:#999999;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82.54744,119.02083 14.64609,-4.2011 c 0,0 5.1906,14.1964 -2.769281,16.5138 -9.241718,2.69059 -11.876809,-12.3127 -11.876809,-12.3127 z"
+       id="path12"
+       sodipodi:nodetypes="ccsc" />
+    <path
+       style="fill:#999999;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 88.534077,111.57462 c 0,0 8.633588,-3.17034 3.953854,-19.321481 -4.54699,-15.69299 -13.702482,-12.930295 -13.702482,-12.930295 0,0 -8.306007,3.853264 -4.041562,17.961497 4.874314,16.125889 13.79019,14.290279 13.79019,14.290279 z"
+       id="path14"
+       sodipodi:nodetypes="cscsc" />
+    <path
+       style="fill:#999999;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 103.21749,115.04875 14.78444,3.68479 c 0,0 -2.60302,14.88975 -10.65517,12.91673 -9.348858,-2.29074 -4.12927,-16.60152 -4.12927,-16.60152 z"
+       id="path12-5"
+       sodipodi:nodetypes="ccsc" />
+    <path
+       style="fill:#999999;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 112.42825,111.99437 c 0,0 9.06209,1.5712 13.08488,-14.755969 3.90869,-15.86403 -5.40155,-18.04921 -5.40155,-18.04921 0,0 -9.11984,-0.81598 -12.48084,13.53434 -3.84168,16.402579 4.79751,19.270839 4.79751,19.270839 z"
+       id="path14-8"
+       sodipodi:nodetypes="cscsc" />
+  </g>
+</svg>
