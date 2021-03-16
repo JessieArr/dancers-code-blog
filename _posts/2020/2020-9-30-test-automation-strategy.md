@@ -15,12 +15,14 @@ Theory:
 - [Test Benefit Analysis]({% post_url 2019-11-13-test-benefit-analysis %})
 - [Role of Test Automation in a CI/CD Pipeline]({% post_url 2019-11-14-role-of-test-automation-in-a-ci-cd-pipeline %})
 - [Discussion on Test Type Naming]({% post_url 2020-09-30-notes-on-test-naming %})
+- Shift Left Mindset (coming soon™)
 
 Testing Scopes:
 
 - [Unit]({% post_url 2019-11-19-unit-tests %})
 - [Integration]({% post_url 2019-12-04-integration-tests %})
 - System (coming soon™)
+- API (coming soon™)
 - UI (coming soon™)
 - Why Test Scopes Matter (coming soon™)
 
@@ -33,6 +35,7 @@ Standard Test Types:
 
 Automated Testing Techniques
 
+- Quality Gates (coming soon™)
 - Test data management (coming soon™)
 - Reporting Test Results (coming soon™)
 - Test history visibility (coming soon™)
@@ -51,3 +54,4 @@ Specialized Test types:
 - Load Testing (coming soon™)
 - Fuzzing (coming soon™)
 - Geographical Testing (coming soon™)
+- Property Testing (coming soon™)
